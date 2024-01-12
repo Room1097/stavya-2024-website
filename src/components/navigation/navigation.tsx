@@ -3,7 +3,8 @@ import './navigation.css'
 
 const Navigation = () => {
     return (
-      <div className="grid grid-cols-3 gap-4 h-10 px-10 items-center border-red-500 ">
+      <div className="nav">
+        <div className="grid grid-cols-3 gap-4 h-10 px-10 items-center border-red-500">
         <div className=" text-white flex gap-6 justify-center">
           <a href="#" target='_blank' className='nav-text'> Home </a>
           <a href="#" target='_blank' className='nav-text'> About Us </a>
@@ -19,6 +20,7 @@ const Navigation = () => {
           <a href="#" target='_blank' className='nav-text'> Contact Us </a>
         
         </div>
+      </div>
       </div>
     );
   }
