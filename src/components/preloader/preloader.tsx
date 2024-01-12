@@ -4,11 +4,19 @@ import '../../assets/utils/utils.css'
 const Preloader = () => {
   return (
     <div className='main'>
-      <div className="clap-switch"></div>
+      <div className="clap-switch">
+        <div className="right-skew-rect"></div>
+        <div className="right-skew-rect"></div>
+        <div className="right-skew-rect"></div>
+      </div>
       <div className="holder"></div>
 
       <div className="rest italic font-bold text-2xl">
-        <div className="lower-switch"></div>
+        <div className="lower-switch">
+            <div className="left-skew-rect"></div>
+            <div className="left-skew-rect"></div>
+            <div className="left-skew-rect"></div>
+        </div>
         <div className="heading"><h1 className='text-5xl pb-5 pt-2 pl-5'>Stavya 2024</h1></div>
         <div className="table">
             <div className="grid grid-cols-3 gap-0 h-20 row1">
