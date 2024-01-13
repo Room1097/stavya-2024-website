@@ -1,16 +1,18 @@
-// App.js
-import React from "react";
-import Navigation from "./components/navigation/navigation";
-import Preloader from "./components/preloader/preloader";
-import { ThemeProvider } from "./components/providers/theme-provider";
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home  from './pages/home';
+import About  from './pages/about';
+
 
 function App() {
     return (
         <>
-            <Preloader />
-            <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-                <Navigation />
-            </ThemeProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route index element = {<Home /> } />
+              <Route path='/home' element =  {<Home /> } />
+              <Route path='/about' element =  {<About /> } />
+            </Routes>
+          </BrowserRouter>   
         </>
     );
 }
