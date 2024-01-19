@@ -1,12 +1,18 @@
-import React from 'react'
-import Cult from '../cult-comm/Cult'
+import React from 'react';
+import Cult from '../cult-comm/Cult';
+import Lit from '../lit-comm/Lit';
 
 const AboutUs = () => {
   return (
-    <div className='items-center flex justify-center'>
+    <div className="flex flex-col items-center justify-center">
+      <div className='mb-60'>
         <Cult />
+      </div>
+      <div className='mt-60'>
+        <Lit />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
