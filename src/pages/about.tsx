@@ -1,3 +1,4 @@
+import AboutUs from '@/components/about-us/AboutUs';
 import Navigation from '../components/navigation/navigation'
 import { ThemeProvider } from "../components/providers/theme-provider";
 
@@ -6,7 +7,7 @@ const About = () => {
   <>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Navigation />
-        <h1 className='text-5xl'>INSIDE ABOUT US PAGE</h1>
+        <AboutUs />
     </ThemeProvider>
   </>
   )

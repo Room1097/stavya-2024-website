@@ -2,8 +2,8 @@
 
 const AboutUs = () => {
   return (
-    <div>
-      
+    <div className="flex">
+      <h1>Inside about us component</h1>
     </div>
   )
 }
