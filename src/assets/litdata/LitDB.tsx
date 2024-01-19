@@ -1,31 +1,31 @@
 
-export const CultDB = [
+export const LitDB = [
     {
-      "name": "Suryansh Singh Raghuvanshi",
+      "name": "Srijan Sharma",
       "image": "src/assets/img/cultpics/avatar.png",
       "team" : "Cultural Committee",
       "contact": "john@example.com"
     },
     {
-      "name": "Omni Manwani",
+      "name": "Anay Pandey",
       "image": "src/assets/img/cultpics/avatar.png",
       "team" : "Cultural Committee",
       "contact": "jane@example.com"
     },
     {
-      "name": "Diya Bhati",
+      "name": "Tanay Patel",
       "image": "src/assets/img/cultpics/avatar.png",
       "team" : "Cultural Committee",
       "contact": "jane@example.com"
     },
     {
-      "name": "Shantanu Kumar",
+      "name": "Devrikh Jatav",
       "image": "src/assets/img/cultpics/avatar.png",
       "team" : "Cultural Committee",
       "contact": "jane@example.com"
     },
     {
-      "name": "Bhargav Gugulothu",
+      "name": "Ved Prakash Meena",
       "image": "src/assets/img/cultpics/avatar.png",
       "team" : "Cultural Committee",
       "contact": "jane@example.com"
