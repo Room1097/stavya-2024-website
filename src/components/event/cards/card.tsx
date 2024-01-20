@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { Calendar } from "lucide-react";
+import React, { useState } from 'react';
+import { Separator } from '@/components/ui/separator';
+import './card.css'; // Import the CSS file for styling
 
 interface EventCardProps {
   title: string;
@@ -7,50 +8,30 @@ interface EventCardProps {
   startDate: string;
   endDate?: string;
   registerUrl: string;
+  description: string;
 }
 
-const EventCard: React.FC<EventCardProps> = ({
-  title,
-  img,
-  startDate,
-  endDate,
-  registerUrl,
-}) => {
-  const renderDate = () => {
-    if (endDate) {
-      return `${startDate} - ${endDate}`;
-    } else {
-      return `On ${startDate}`;
-    }
-  };
-
-  const handleRegisterClick = () => {
-    // Handle registration logic, e.g., redirect to registerUrl
-    window.location.href = registerUrl;
-  };
+const EventCard: React.FC<EventCardProps> = ({ title, img, startDate, endDate, registerUrl, description }) => {
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <>
-      <div className="h-[30rem] w-[20rem] bg-slate-300 rounded-lg flex flex-col items-center p-8 transition-all transform hover:scale-105 hover:shadow-lg">
-        <img
-          src={img}
-          className="h-48 rounded-md transition-all transform hover:scale-110"
-        />
-        <div className="grid grid-rows-3 items-center justify-center p-3 h-full">
-          <div className="flex justify-center">
-            <div className="text-black text-2xl font-semibold">{title}</div>
-          </div>
-          <div className="text-black text-lg flex justify-center mt-3 font-semibold transition-all transform hover:scale-110">
-            <Calendar className="h-6 w-6 mr-3" /> <div>{renderDate()}</div>
-          </div>
-          <div className="mt-7 flex justify-center">
-            <Button variant="secondary" onClick={handleRegisterClick} className="w-[18rem] h-[4rem] text-lg">
-              Register Here !!
-            </Button>
+    <div className={`event-card flex flex-row gap-5 mb-20 ${isHovered ? 'hovered' : ''}`}>
+      <div className='image-container' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <img src={img} alt="" className='h-[20rem]' />
+      </div>
+      <div className={`event-details-container ${isHovered ? 'visible' : ''}`}>
+        <div className='w-[28rem] event-details'>
+          <h1 className='text-4xl mb-3'>{title}</h1>
+          <Separator />
+          <p className='text-2xl mb-3'>{startDate} - {endDate}</p>
+          <p className='text-justify text-lg'>{description}</p>
+          <div className='event-details_buttons flex justify-evenly'>
+            <button className='px-5 py-2 text-xl text-black my-4' style={{backgroundColor: 'white'}}>More</button>
+            <button className='px-5 py-2 text-xl text-black my-4' style={{backgroundColor: 'white'}}>Register</button>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
