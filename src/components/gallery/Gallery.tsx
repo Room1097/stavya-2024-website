@@ -18,7 +18,13 @@ const Gallery = () => {
       <Swiper
       slidesPerView={5}
       modules={[Autoplay]}
-      autoplay={true}
+      loop={true}
+      
+      autoplay={{
+        // pauseOnMouseEnter:true,
+        reverseDirection:true,
+        
+      }}
       >
         <SwiperSlide>
             <img src="https://picsum.photos/200/300?grayscale" alt="" />
