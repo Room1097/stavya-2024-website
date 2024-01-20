@@ -5,8 +5,8 @@ import { Copyright } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <div className='relative bottom-0 bg-orange-400' style={{color: "#3A3A50"}}>
-      <Separator />
+    <div className='relative bottom-0 bg-orange-400 pb-4' style={{color: "#3A3A50"}} >
+      <Separator className='bg-slate-700'/>
       <div className='flex justify-between mt-5 grid-cols-2 mx-60 py-10 gap-40'>
         <div className='flex flex-row gap-8'>
             <div className='flex flex-col justify-center items-center'>
@@ -34,11 +34,11 @@ const Footer = () => {
 
         </div>
       </div>
-      <Separator />
+      <Separator className='bg-slate-700'/>
       <div className='py-2 flex justify-center items-center gap-2 text-sm'>
         Annual Fest organized by Literature Committee and Cultural Committee of IIIT Vadodara, International Campus - Diu
       </div>
-      <Separator />
+      <Separator className='bg-slate-700'/>
     </div>
   );
 };
