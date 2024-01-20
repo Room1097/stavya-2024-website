@@ -11,6 +11,9 @@ const AboutUs = () => {
       <div className='mt-60'>
         <Lit />
       </div>
+      <div className='mb-[30rem]'>
+
+      </div>
     </div>
   );
 };
