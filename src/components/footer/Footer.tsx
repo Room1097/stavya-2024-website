@@ -1,6 +1,5 @@
 import React from 'react';
 import { Separator } from '../ui/separator';
-import { Linkedin, Instagram } from 'lucide-react';
 import Social from '../social/Social';
 import { Copyright } from 'lucide-react';
 
@@ -13,14 +12,14 @@ const Footer = () => {
             <div className='flex flex-col justify-center items-center'>
             <Social
                 committeeName='Literature'
-                linkedinLink='https://www.linkedin.com/company/literature-committee'
+                gmailLink='https://www.linkedin.com/company/literature-committee'
                 instagramLink='https://www.instagram.com/literature_committee/'
             />
             </div>
             <div className='flex flex-col justify-center items-center'>
             <Social
                 committeeName='Cultural'
-                linkedinLink='https://www.linkedin.com/company/literature-committee'
+                gmailLink='https://www.linkedin.com/company/literature-committee'
                 instagramLink='https://www.instagram.com/literature_committee/'
             />
             </div>
