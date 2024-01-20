@@ -17,7 +17,7 @@ const Navigation = () => {
         <div className=" text-white flex gap-6 justify-center">
           
           <a href="/events" className='nav-text'> Events </a>
-          <a href="#" className='nav-text'> Contact Us </a>
+          <a href="/gallery" className='nav-text'> Gallery </a>
         
         </div>
       </div>
