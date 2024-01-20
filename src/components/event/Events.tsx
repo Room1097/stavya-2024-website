@@ -21,18 +21,22 @@ const Event: React.FC<EventProps> = ({ data }) => {
 
   return (
     <>
-      <div className="w-full flex justify-center items-center text-white font-mono h-24 text-4xl">
+      <div className="w-full flex justify-center items-center text-primay font-sans font-semibold h-24 text-4xl">
         Events for Stavya 2K24
       </div>
       <Separator className="w-[80vw] m-auto" />
-      <div className="flex flex-wrap p-12 justify-evenly">
+      <div className="flex p-12 flex-wrap gap-x-12 justify-center ">
         {data.map((item, index) => (
+          
+
           <React.Fragment key={index}>
+            
             <EventCard {...item} />
-            {(index + 1) % cardsPerLine === 0 && (
+            {/* {(index + 1) % cardsPerLine === 0 && (
               <div key={`separator-${index}`} className="w-full" />
-            )}
+            )} */}
           </React.Fragment>
+            
         ))}
       </div>
     </>
