@@ -7,8 +7,8 @@ import "swiper/css/autoplay"
 const Gallery = () => {
   return (
     <>
-        <div className="w-full flex justify-center items-center text-white font-mono h-24 text-4xl">
-        Stavya 2K23
+        <div className="w-full flex justify-center items-center text-black font-mono h-24 text-4xl">
+        Stavya 2023
       </div>
       <Separator className="w-[80vw] m-auto" />
       <div className=" w-full h-[33rem] p-10">
