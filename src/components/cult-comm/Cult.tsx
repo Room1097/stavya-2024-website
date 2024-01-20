@@ -32,18 +32,17 @@ const Cult = () => {
     }
   }
 
+
+
   return (
-    <div className="w-100 h-96 flex flex-wrap">
-      <div className='flex flex-col justify-center items-center'>
+    <div className="w-100 h-96 flex flex-wrap items-center justify-center">
         <div className="flex justify-center items-center flex-col">
           <Separator className='py-0.5 bg-slate-300 w-[90vw]'/>
           <h1 className="text-5xl mt-5 mb-10">Cultural Committee</h1>
         </div>
-        <div>
+        <div className='people-card-row'>
           {peopleCardsRows}
         </div>
-        
-      </div>
     </div>
   );
 };

@@ -8,60 +8,64 @@
   align-items: center;
   flex-direction: column;
   box-shadow: 0 0 10px orange, 0 0 10px #51589c, 0 0 10px orange, 0 0 10px orange;
-  transition: all 0.3s ease-in-out;
-  
+  transform: translateY(100%);
+  opacity: 0;
 }
-  
-  .person-card:hover {
-    transform: scale(1.05);
-    background-color: orange;
-  }
-  
-  .person-card:hover .profile-pic img {
-    border: 2px solid #646363;
-    padding: 0px;
-  }
 
-  .person-card:hover .details__name{
-    transform: scale(1.05);
-  }
 
-  .profile-pic img {
-    width: 180px;
-    margin-top: 16px; 
-    margin-bottom: 12px; 
-    /* border: 4px solid orange; */
-    padding: 3px;
-    border-radius: 50%;
-    transition: all ease 0.3s;
-  }
+.person-card:hover {
+  transform: scale(1.05);
+  background-color: orange;
+}
 
-  .profile-pic img:hover{
-    transform: scale(1.05);
-  }
-  
-  .details {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  }
-  
-  .details .details__name {
-    width: 100%;
-    height: 40px;
-    margin: 8px 0 0 0; 
-    color: #333;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.2;
-    transition: 0.3 all ease;
-  }
-  
-  .details h3 {
-    color: #666;
-    font-size: 16px;
-    margin: 4px 0; 
-  }
-  
+.person-card:hover .profile-pic img {
+  border: 2px solid #646363;
+  padding: 0px;
+}
+
+.person-card:hover .details__name {
+  transform: scale(1.05);
+}
+
+.profile-pic{
+  opacity: 0;
+}
+
+.profile-pic img {
+  width: 180px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  padding: 3px;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+
+.profile-pic img:hover {
+  transform: scale(1.05);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+
+.details .details__name {
+  width: 100%;
+  height: 40px;
+  margin: 8px 0 0 0;
+  color: #333;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  transition: 0.3 all ease;
+}
+
+.details h3 {
+  color: #666;
+  font-size: 16px;
+  margin: 4px 0;
+}
