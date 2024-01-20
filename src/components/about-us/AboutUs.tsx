@@ -8,10 +8,10 @@ const AboutUs = () => {
       <div className='mb-60'>
         <Cult />
       </div>
-      <div className='mt-60'>
+      <div className='mt-80'>
         <Lit />
       </div>
-      <div className='mb-[30rem]'>
+      <div className='mb-[36rem]'>
 
       </div>
     </div>

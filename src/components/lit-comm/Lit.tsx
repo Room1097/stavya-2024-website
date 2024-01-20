@@ -22,13 +22,13 @@ const Cult = () => {
     const centerClass = isTwoPeopleCards ? 'justify-center' : '';
 
     peopleCardsRows.push(
-      <div key={i} className={`peopleCards flex flex-row gap-20 ${centerClass}`}>
+      <div key={i} className={`peopleCards flex flex-row gap-[12rem] ${centerClass}`}>
         {row}
       </div>
     );
 
     if (i < LitDB.length - 3) {
-      peopleCardsRows.push(<div key={`gap-${i}`} className="mt-10" />);
+      peopleCardsRows.push(<div key={`gap-${i}`} className="mt-20" />);
     }
   }
 
