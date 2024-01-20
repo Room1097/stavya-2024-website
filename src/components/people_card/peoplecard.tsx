@@ -16,7 +16,7 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ image, name, team, contact }) =
         <img src={image} alt="Profile" className='profile'/>
       </div>
       <div className="details">
-        <h2>{name}</h2>
+        <h2 className='details__name'>{name}</h2>
         <Separator />
         <h3>{team}</h3>
         <h3>{contact}</h3>
