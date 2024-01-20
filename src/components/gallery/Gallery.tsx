@@ -3,11 +3,13 @@ import { Separator } from "../ui/separator"
 import { Autoplay } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/autoplay"
+import Footer from "../footer/Footer"
 
 const Gallery = () => {
   return (
     <>
-        <div className="w-full flex justify-center items-center text-black font-mono h-24 text-4xl">
+      <>
+      <div className="w-full flex justify-center items-center text-black font-mono h-24 text-4xl">
         Stavya 2023
       </div>
       <Separator className="w-[80vw] m-auto" />
@@ -41,6 +43,8 @@ const Gallery = () => {
         </SwiperSlide>
       </Swiper>
         </div>
+      </>
+      <Footer />
     </>
   )
 }
