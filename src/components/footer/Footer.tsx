@@ -35,8 +35,8 @@ const Footer = () => {
         </div>
       </div>
       <Separator />
-      <div className='py-2 flex justify-center items-center gap-2'>
-        <Copyright /> Literature Committee and Cultural Committee
+      <div className='py-2 flex justify-center items-center gap-2 text-sm'>
+        Annual Fest organized by Literature Committee and Cultural Committee of IIIT Vadodara, International Campus - Diu
       </div>
       <Separator />
     </div>
