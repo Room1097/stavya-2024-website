@@ -63,7 +63,7 @@ const Events = () => {
       <Separator
       className="w-[80vw] m-auto"
       />
-      <div className="h-[35rem] mt-48 flex gap-x-16 gap-y-14 flex-wrap p-12 justify-around">
+      <div className="mt-48 flex gap-x-16 gap-y-14 flex-wrap p-12 justify-around">
 
       {
             data.map((item,index)=>(
