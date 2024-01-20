@@ -19,9 +19,9 @@ const EventCard: React.FC<EventCardProps> = ({ title, img, startDate, endDate, r
   };
 
   return (
-    <article className="event-card flex flex-row gap-5 mb-20 p-8 border-orange-500 border-2 rounded-lg">
+    <article className="event-card flex flex-row gap-5 mb-20 p-8 border-orange-500 border-2 rounded-lg w-[48%] transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-[#FFA500]">
       <div className='image-container'>
-        <img src={img} alt={`Event: ${title}`} className='event-image w-[12rem]' />
+        <img src={img} alt={`Event: ${title}`} className='event-image w-[30rem] rounded-md ' />
       </div>
       <div className={`event-details-container w-[36rem]`}>
         <header className='event-title text-3xl mb-3 font-bold'>{title}</header>
@@ -31,7 +31,7 @@ const EventCard: React.FC<EventCardProps> = ({ title, img, startDate, endDate, r
           <p className='event-description text-justify text-lg'>{description}</p>
           <div className='event-buttons flex items-center justify-center'>
             <Button className='register-button px-6 py-4 text-lg mt-4'
-              variant="secondary"
+              // variant="secondary"
               onClick={handleRegisterClick}
             >
               Register
