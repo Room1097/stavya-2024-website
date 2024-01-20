@@ -1,14 +1,14 @@
 .nav-text{
     font-size: 1.4rem;
-    color: #a0a0a0;
+    color: rgb(68, 67, 67);
 }
 
-a{
+.nav-text{
     position: relative;
     padding: 0 8px;
 }
 
-a:after{
+.nav-text:after{
     content: "";
     position: absolute;
     background-color: #b56f1c;
@@ -19,7 +19,7 @@ a:after{
     transition: 0.3s;
 }
 
-a:hover:after{
+.nav-text:hover:after{
      width: 100%;
 
 }

@@ -22,24 +22,27 @@ const Cult = () => {
     const centerClass = isTwoPeopleCards ? 'justify-center' : '';
 
     peopleCardsRows.push(
-      <div key={i} className={`peopleCards flex flex-row gap-20 ${centerClass}`}>
+      <div key={i} className={`peopleCards flex flex-row gap-[12rem] ${centerClass}`}>
         {row}
       </div>
     );
 
     if (i < CultDB.length - 3) {
-      peopleCardsRows.push(<div key={`gap-${i}`} className="mt-10" />);
+      peopleCardsRows.push(<div key={`gap-${i}`} className="mt-20" />);
     }
   }
 
   return (
     <div className="w-100 h-96 flex flex-wrap">
-      <div>
+      <div className='flex flex-col justify-center items-center'>
         <div className="flex justify-center items-center flex-col">
-          <Separator />
-          <h1 className="text-3xl mt-5 mb-10">Cultural Committee</h1>
+          <Separator className='py-0.5 bg-slate-300 w-[90vw]'/>
+          <h1 className="text-5xl mt-5 mb-10">Cultural Committee</h1>
         </div>
-        {peopleCardsRows}
+        <div>
+          {peopleCardsRows}
+        </div>
+        
       </div>
     </div>
   );
