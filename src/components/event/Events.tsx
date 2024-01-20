@@ -17,7 +17,7 @@ interface EventProps {
 }
 
 const Event: React.FC<EventProps> = ({ data }) => {
-  const cardsPerLine = 3;
+  const cardsPerLine = 4;
 
   return (
     <>
@@ -25,7 +25,7 @@ const Event: React.FC<EventProps> = ({ data }) => {
         Events for Stavya 2K24
       </div>
       <Separator className="w-[80vw] m-auto" />
-      <div className="flex flex-wrap p-12 justify-around">
+      <div className="flex flex-wrap p-12 justify-evenly">
         {data.map((item, index) => (
           <React.Fragment key={index}>
             <EventCard {...item} />

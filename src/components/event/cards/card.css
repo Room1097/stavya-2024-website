@@ -1,16 +1,18 @@
-.event-card {
-    transition: all 0.3s ease-in-out;
-  }
-
-  .event-details-container {
+/* .event-details-container{
     display: none;
-    height: 0;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .event-card:hover .event-details-container {
+}
+
+.image-container:hover + .event-details-container{
     display: block;
-    height: auto;
-  }
-  
+} */
+
+.reg-btn{
+    transition: 0.3s all ease-in-out;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.reg-btn:hover{
+    background-color: white;
+    color: black;
+}
