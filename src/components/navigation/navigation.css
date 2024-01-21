@@ -1,14 +1,12 @@
-.nav-text{
+/* Default styles for the Navigation component */
+.nav-text {
     font-size: 1.4rem;
     color: rgb(68, 67, 67);
-}
-
-.nav-text{
     position: relative;
     padding: 0 8px;
 }
 
-.nav-text:after{
+.nav-text:after {
     content: "";
     position: absolute;
     background-color: #b56f1c;
@@ -19,7 +17,32 @@
     transition: 0.3s;
 }
 
-.nav-text:hover:after{
-     width: 100%;
+.nav-text:hover:after {
+    width: 100%;
+}
 
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+    .nav-text {
+        display: none;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .nav-logo {
+        display: block;
+    }
+
+    .logo{
+        height: 5.5rem;
+    }
+
+    .hamburger-icon {
+        display: block;
+        justify-self: right;
+        margin-right: -25%;
+        cursor: pointer;
+    }
 }
