@@ -1,4 +1,10 @@
 .home-container{
     background-image: url(src/assets/img/HOME.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.27);
+}
+
+.timeline-super-div{
+    background: linear-gradient(90deg, rgba(253, 212, 6, 0.50) 50%, rgba(247, 153, 50, 0.50) 100%); 
 }

@@ -1,5 +1,5 @@
 .nav{
-    background: linear-gradient(90deg, rgba(253, 212, 6, 0.50) 50%, rgba(247, 153, 50, 0.50) 100%);
+    background: linear-gradient(270deg, rgba(253, 212, 6, 0.50) 50%, rgba(247, 153, 50, 0.50) 100%);
 }
 
 .nav-text {
@@ -24,8 +24,7 @@
     width: 100%;
 }
 
-/* Media query for small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .nav-text {
         display: none;
     }
