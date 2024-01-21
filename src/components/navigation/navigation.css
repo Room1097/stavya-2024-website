@@ -24,8 +24,7 @@
     width: 100%;
 }
 
-/* Media query for small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .nav-text {
         display: none;
     }

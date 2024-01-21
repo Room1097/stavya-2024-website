@@ -7,20 +7,17 @@ const Navigation = () => {
     return (
         <div className="nav">
             <div className="flex flex-row gap-4 lg:px-10 items-center justify-between text-2xl h-[10vh]">
-                {/* Logo */}
                 <Link to='/home' className="text-3xl text-white flex justify-center">
                     <img
-                        className="lg:h-[8vh] logo"
+                        className="lg:h-[8vh] h-[6vh] pl-4 logo"
                         src="src/assets/img/WEB1.svg" alt=""
                     />
                 </Link>
 
-                {/* Hamburger icon for smaller screens */}
-                <div className='hamburger-icon lg:hidden'>
+                <div className='hamburger-icon md:hidden sm:hidden lg:hidden'>
                     <Menu />
                 </div>
 
-                {/* Navigation items for smaller screens */}
                 <div className={`text-white flex flex-row gap-3 nav-items lg:block`}>
                     <a href="/home" className='nav-text'> Home </a>
                     <a href="/about" className='nav-text'> About Us </a>

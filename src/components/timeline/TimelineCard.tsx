@@ -43,11 +43,11 @@ const TimeLineCard: React.FC<TimeLineCardProps> = ({ day }) => {
 
   return (
     <div className="flex flex-col justify-center items-center border-zinc-800 border-2 p-[1.2em] rounded-2xl bg-gray-50 opacity-80">
-      <div>
-        <h1 className="text-2xl">Day {day.toString()}</h1>
-      </div>
+      {/* <div>
+        <h1 className="lg:text-2xl text-lg">Day {day.toString()}</h1>
+      </div> */}
       <div className="">
-      <Separator />
+      {/* <Separator /> */}
         {selectedDay.map((event, index) => (
           <TimelineElem
             key={index}
