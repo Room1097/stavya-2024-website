@@ -5,40 +5,44 @@ import { Copyright } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <div className='relative bottom-0 bg-orange-400 pb-4' style={{color: "#3A3A50"}} >
-      <Separator className='bg-slate-700'/>
-      <div className='flex justify-between mt-5 grid-cols-2 mx-60 py-10 gap-40'>
-        <div className='flex flex-row gap-8'>
-            <div className='flex flex-col justify-center items-center'>
+    <div className='relative bottom-0 bg-orange-400 pb-4 text-gray-800'>
+      <Separator className='bg-slate-700' />
+      <div className='flex flex-col lg:flex-row justify-center items-center lg:justify-between mt-5 mx-4 lg:mx-60 py-10 lg:gap-40'>
+        <div className='flex lg:flex-col flex-row lg:gap-8 gap-3 items-center'>
+          <div className='flex  lg:flex-col justify-center items-center lg:mb-6'>
+            {/* Use flex-row on smaller screens */}
             <Social
-                committeeName='Literature'
-                gmailLink='https://www.linkedin.com/company/literature-committee'
-                instagramLink='https://www.instagram.com/literature_committee/'
+              committeeName='Literature'
+              gmailLink='https://www.linkedin.com/company/literature-committee'
+              instagramLink='https://www.instagram.com/literature_committee/'
+      
             />
-            </div>
-            <div className='flex flex-col justify-center items-center'>
+          </div>
+          <div className='flex  lg:flex-col justify-center items-center'>
+            {/* Use flex-row on smaller screens */}
             <Social
-                committeeName='Cultural'
-                gmailLink='https://www.linkedin.com/company/literature-committee'
-                instagramLink='https://www.instagram.com/literature_committee/'
+              committeeName='Cultural'
+              gmailLink='https://www.linkedin.com/company/literature-committee'
+              instagramLink='https://www.instagram.com/literature_committee/'
+              
             />
-            </div>
+          </div>
         </div>
-       
-        <div>
-        <p className='text-2xl w-[28vw] text-left flex flex-col gap-2'>
-                <span className='text-4xl'>Indian Institute of Information Technology Vadodara</span> 
-                <span className='text-2xl'> International Campus Diu</span>
-                <span className='text-xl'>Education Hub, Kevdi, Diu(U.T)- 362520</span>
-        </p>
 
+        {/* Hide on small screens */}
+        <div className='right-footer lg:w-1/3 hidden sm:block'>
+          <p className='text-center lg:text-left flex flex-col gap-2'>
+            <span className='text-4xl'>Indian Institute of Information Technology Vadodara</span>
+            <span className='text-2xl'>International Campus Diu</span>
+            <span className='text-xl'>Education Hub, Kevdi, Diu(U.T)- 362520</span>
+          </p>
         </div>
       </div>
-      <Separator className='bg-slate-700'/>
-      <div className='py-2 flex justify-center items-center gap-2 text-sm'>
+      <Separator className='bg-slate-700' />
+      <div className='py-2 lg:flex justify-center items-center gap-2 text-sm hidden sm:flex'>
         Annual Fest organized by Literature Committee and Cultural Committee of IIIT Vadodara, International Campus - Diu
       </div>
-      <Separator className='bg-slate-700'/>
+      <Separator className='bg-slate-700' />
     </div>
   );
 };
