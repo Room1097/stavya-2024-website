@@ -3,9 +3,18 @@ export const EventsDB = [
             img:"/src/assets/img/eventpics/SHASHWAT.png",
             registerUrl:"https://www.google.com",
             title:"Art Competition",
-            description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+            description: "Nrityakala, an immersive dance celebration,invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"2 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                "Rule 2: Your second rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
+            
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -14,6 +23,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"2 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -22,6 +37,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"27 Jan",
             endDate:"31 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -30,6 +51,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"27 Jan",
             endDate:"28 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -37,6 +64,12 @@ export const EventsDB = [
             title:"Nrityakala",
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"28 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
           
         },
         {
@@ -46,6 +79,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"2 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -54,6 +93,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"30 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -62,6 +107,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"27 Jan",
             endDate:"29 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -70,6 +121,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"27 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -78,6 +135,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"2 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -86,6 +149,12 @@ export const EventsDB = [
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"26 Jan",
             endDate:"2 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
         },
         {
             img:"/src/assets/img/eventpics/SHASHWAT.png",
@@ -93,6 +162,12 @@ export const EventsDB = [
             title:"Open Mic",
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"1 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
             
         },
         {
@@ -101,6 +176,12 @@ export const EventsDB = [
             title:"Alter Ego - Group Discussion",
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"30 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
 
         },
         {
@@ -109,6 +190,12 @@ export const EventsDB = [
             title:"Shabd Sangam Poetry Recitation",
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"29 Jan",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
 
         },
         {
@@ -117,6 +204,12 @@ export const EventsDB = [
             title:"Disco Night",
             description: "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
             startDate:"2 Feb",
+            rules: [
+                "Rule 1: Your first rule here",
+                "Rule 2: Your second rule here",
+                
+              ],
+             regdate: "26 Jan",
 
         },
        

@@ -20,7 +20,8 @@ const Cult = () => {
             name={person.name}
             image={person.image}
             team={person.team}
-            contact={person.contact}
+            linkedin={person.linkedin}
+            insta={person.insta}
           />
         ))}
       </div>

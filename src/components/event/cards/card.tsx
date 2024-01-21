@@ -19,6 +19,8 @@ interface EventCardProps {
   endDate?: string;
   registerUrl: string;
   description: string;
+  rules:string[];
+  regdate : string;
 }
 // ... (previous imports)
 
@@ -29,6 +31,8 @@ const EventCard: React.FC<EventCardProps> = ({
   endDate,
   registerUrl,
   description,
+  rules,
+  regdate
 }) => {
   const [expanded, setExpanded] = useState(true);
 
@@ -43,6 +47,15 @@ const EventCard: React.FC<EventCardProps> = ({
     }
 
   }
+  const renderRulesList = () => {
+    return (
+      <ul className="list-disc ml-6">
+        {rules.map((rule, index) => (
+          <li key={index}>{rule}</li>
+        ))}
+      </ul>
+    );
+  };
 
   return (
     <article
@@ -78,18 +91,13 @@ const EventCard: React.FC<EventCardProps> = ({
               </AccordionTrigger>
               <AccordionContent>
                 <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
+                  <div className=" font-bold lg:text-xl text-sm"> Rules</div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed vitae facilisis risus. Nullam nec dolor nec elit
-                    convallis dignissim.
+                    {renderRulesList()}
                   </p>
+                  <div className=" font-bold lg:text-xl text-sm"> Registration date</div>
                   <p>
-                    Vestibulum efficitur quam vitae justo consectetur ultrices.
-                    Nullam sed metus quis odio bibendum dignissim.
-                  </p>
-                  <p>
-                    Duis facilisis mauris sit amet nibh rhoncus, at lobortis
-                    velit scelerisque. In hac habitasse platea dictumst.
+                    {regdate}
                   </p>
                 </div>
               </AccordionContent>
