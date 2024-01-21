@@ -1,7 +1,7 @@
 import React from "react";
 import TimelineElem from "./TimelineElement";
 import { Separator } from "../ui/separator";
-import { Day1, Day2, Day3 } from "./TimelineDB";
+import { Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8 } from "./TimelineDB";
 
 interface TimeLineCardProps {
   day: number;
@@ -20,6 +20,21 @@ const TimeLineCard: React.FC<TimeLineCardProps> = ({ day }) => {
       break;
     case 3:
       selectedDay = Day3;
+      break;
+    case 4:
+      selectedDay = Day4;
+      break;
+    case 5:
+      selectedDay = Day5;
+      break;
+    case 6:
+      selectedDay = Day6;
+      break;
+    case 7:
+      selectedDay = Day7;
+      break;
+    case 8:
+      selectedDay = Day8;
       break;
     
     default:

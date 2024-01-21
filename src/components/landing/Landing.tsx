@@ -38,12 +38,12 @@ const Landing: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center p-[2rem] ">
+      <div className="flex flex-col justify-center items-center p-[2rem] timeline-super-div">
         <div>
           <h1 className="text-4xl mb-[20px]">Event Timeline</h1>
         </div>
         <div className="w-[90vw] ">
-          <Separator className="py-0.5 my-[2vh]"/>
+          <Separator className="py-0.5 my-[2vh]" />
         </div>
         <div className="timeline-container">
           <div className="timeline-item-main">
@@ -67,7 +67,31 @@ const Landing: React.FC = () => {
           <div className="timeline-item-main">
             <TimeLineCard day={4} />
             <div className="timeline-content">
-              
+              {/* Add your content for day 4 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={5} />
+            <div className="timeline-content">
+              {/* Add your content for day 5 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={6} />
+            <div className="timeline-content">
+              {/* Add your content for day 6 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={7} />
+            <div className="timeline-content">
+              {/* Add your content for day 7 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={8} />
+            <div className="timeline-content">
+              {/* Add your content for day 8 */}
             </div>
           </div>
         </div>

@@ -29,8 +29,10 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ image, name, team, linkedin,ins
         <h2 className='details__name'>{name}</h2>
         <Separator />
         <h3>{team}</h3>
-        <h3><Button onClick={handleInstaClick} variant="link"><Instagram className='border-red-500 border-2 lg:w-4 lg:h-4 lg:mr-2 p-0'/>Instagram</Button></h3>
+        <div className='flex'>
+        <h3><Button onClick={handleInstaClick} variant="link"><Instagram className="lg:w-4 lg:h-4 lg:mr-2 p-0"/>Instagram</Button></h3>
         <h3><Button onClick={handleLinkedInClick} variant="link"><LinkedinIcon className='lg:w-4 lg:h-4 lg:mr-2 p-0'/>LinkedIn</Button></h3>
+        </div>
       </div>
     </div>
     </div>

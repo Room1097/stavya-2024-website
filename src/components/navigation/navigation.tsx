@@ -10,8 +10,8 @@ const Navigation = () => {
                 {/* Logo */}
                 <Link to='/home' className="text-3xl text-white flex justify-center">
                     <img
-                        className="lg:h-[14vh] logo"
-                        src="src/assets/img/logo.png" alt=""
+                        className="lg:h-[8vh] logo"
+                        src="src/assets/img/WEB1.svg" alt=""
                     />
                 </Link>
 
