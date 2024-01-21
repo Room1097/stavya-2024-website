@@ -35,6 +35,14 @@ const EventCard: React.FC<EventCardProps> = ({
   const handleRegisterClick = () => {
     window.location.href = registerUrl;
   };
+  const handlDate = () =>{
+    if (endDate) {
+      return `${startDate} - ${endDate}`;
+    } else {
+      return `On ${startDate}`;
+    }
+
+  }
 
   return (
     <article
@@ -56,7 +64,7 @@ const EventCard: React.FC<EventCardProps> = ({
         <div className="event-details">
           <Separator />
           <p className="event-dates lg:text-2xl mb-3">
-            {startDate} - {endDate}
+            {handlDate()}
           </p>
           <p className="event-description text-justify lg:text-lg">
             {description}
