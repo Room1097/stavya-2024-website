@@ -16,3 +16,54 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width : 600px) {
+    .event__card{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        /* background-color: red; */
+        padding: 4px;
+    }
+
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+    }
+
+    .event-details-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .event-image{
+        width: 70%;
+    }
+
+    .event-title{
+        font-size: 1.5rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .event-dates{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+    }
+
+    .event-description{
+        font-size: small;
+        text-align: left;
+    }
+
+    .register-button{
+        font-size: small;
+        padding: 0;
+    }
+}
