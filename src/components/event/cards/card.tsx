@@ -69,7 +69,7 @@ const EventCard: React.FC<EventCardProps> = ({
                 More 
               </AccordionTrigger>
               <AccordionContent>
-                <div className="expanded-content mt-4 text-lg">
+                <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed vitae facilisis risus. Nullam nec dolor nec elit
@@ -89,7 +89,7 @@ const EventCard: React.FC<EventCardProps> = ({
           </Accordion>
 
           
-            <div className="flex flex-row justify-end mt-[2vh]">
+            <div className="flex flex-row justify-end mt-[2vh] mb-[1vh]">
               <Button
                 className="register-button lg:px-10 lg:py-7 lg:text-xl"
                 onClick={handleRegisterClick}
