@@ -5,44 +5,25 @@ import { CultDB } from '@/assets/culturaldata/CultDB';
 import { Separator } from '../ui/separator';
 
 const Cult = () => {
-  const peopleCardsRows = [];
-
-  for (let i = 0; i < CultDB.length; i += 3) {
-    const row = CultDB.slice(i, i + 3).map((person) => (
-      <PeopleCard
-        key={person.name} 
-        name={person.name}
-        image={person.image}
-        team={person.team}
-        contact={person.contact}
-      />
-    ));
-
-    const isTwoPeopleCards = row.length === 2;
-    const centerClass = isTwoPeopleCards ? 'justify-center' : '';
-
-    peopleCardsRows.push(
-      <div key={i} className={`peopleCards flex flex-row gap-[12rem] ${centerClass}`}>
-        {row}
-      </div>
-    );
-
-    if (i < CultDB.length - 3) {
-      peopleCardsRows.push(<div key={`gap-${i}`} className="mt-20" />);
-    }
-  }
-
-
-
   return (
-    <div className="w-100 h-96 flex flex-wrap items-center justify-center">
-        <div className="flex justify-center items-center flex-col">
-          <Separator className='py-0.5 bg-slate-300 w-[90vw]'/>
-          <h1 className="text-5xl mt-5 mb-10">Cultural Committee</h1>
-        </div>
-        <div className='people-card-row'>
-          {peopleCardsRows}
-        </div>
+    <div className="w-full flex flex-wrap items-center justify-center p-4">
+
+      <div className="flex justify-center items-center flex-col w-full lg:w-[90%]">
+        <Separator className='py-0.5 bg-slate-300 w-full lg:w-[90vw]' />
+        <h1 className="lg:text-5xl lg:mt-5 lg:mb-10 text-3xl mt-2">Cultural Committee</h1>
+      </div>
+
+      <div className='people-card-row flex flex-wrap gap-4 lg:gap-[10rem] justify-center lg:flex-row flex-col'>
+        {CultDB.map((person) => (
+          <PeopleCard
+            key={person.name}
+            name={person.name}
+            image={person.image}
+            team={person.team}
+            contact={person.contact}
+          />
+        ))}
+      </div>
     </div>
   );
 };

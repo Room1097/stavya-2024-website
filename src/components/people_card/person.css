@@ -150,3 +150,10 @@
   animation: beat 0.5s ease 1.8s infinite alternate-reverse both;
 }
 
+@media screen and (max-width: 600px) {
+  .person-card {
+   
+      scale: 0.7;
+  
+  }   
+}
