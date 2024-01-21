@@ -42,7 +42,7 @@
     .hamburger-icon {
         display: block;
         justify-self: right;
-        margin-right: -25%;
+        margin-right: -60%;
         cursor: pointer;
     }
 }
