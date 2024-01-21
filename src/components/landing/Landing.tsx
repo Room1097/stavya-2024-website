@@ -32,7 +32,7 @@ const Landing: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="part-2 w-full lg:h-[40vh] bg-amber-600">
+      <div className="part-2 w-full pb-10 bg-amber-600">
         <div className="flex flex-col lg:gap-[20px] justify-center items-center pt-[6vh]">
           <h1 className="lg:text-3xl uppercase font-bold">about the event</h1>
           <p className="lg:w-[40vw] w-[80vw] text-center pb-10 lg:pb-2">
@@ -46,7 +46,7 @@ const Landing: React.FC = () => {
           <h1 className="text-4xl mb-[20px]">Event Timeline</h1>
         </div>
         <div className="w-[90vw] ">
-          <Separator className="py-0.5 my-[2vh]" />
+          <Separator className="py-0.5 my-[2vh] bg-amber-600" />
         </div>
         <div className="timeline-container">
           {days.map((day) => (
