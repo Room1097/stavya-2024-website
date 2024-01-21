@@ -22,7 +22,6 @@ interface EventCardProps {
   rules:string[];
   regdate : string;
 }
-// ... (previous imports)
 
 const EventCard: React.FC<EventCardProps> = ({
   title,
