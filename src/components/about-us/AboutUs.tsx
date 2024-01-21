@@ -5,13 +5,13 @@ import Lit from '../lit-comm/Lit';
 const AboutUs = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className='mb-60'>
+      <div className='mb-[40vh]'>
         <Cult />
       </div>
-      <div className='mt-80'>
+      <div className='mt-[40vh]'>
         <Lit />
       </div>
-      <div className='mb-[36rem]'>
+      <div className='mb-[80vh]'>
 
       </div>
     </div>
