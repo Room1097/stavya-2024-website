@@ -1,4 +1,6 @@
+// TimelineElem.tsx
 import React from "react";
+import './Timeline.css'
 
 interface TimelineProps {
   title: string;
@@ -8,10 +10,10 @@ interface TimelineProps {
 
 const TimelineElem: React.FC<TimelineProps> = ({ title, startTime, endTime }) => {
   return (
-    <div>
-      <div>
-        <h1>{title}</h1>
-        <h2>
+    <div className="timeline-item py-[12px]">
+      <div className="timeline-content">
+        <h1 className="text-lg">{title}</h1>
+        <h2 className="text-[1.5vh]">
           {startTime} - {endTime}
         </h2>
       </div>

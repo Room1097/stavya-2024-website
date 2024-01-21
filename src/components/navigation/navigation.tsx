@@ -6,7 +6,7 @@ import './navigation.css';
 const Navigation = () => {
     return (
         <div className="nav">
-            <div className="flex flex-row gap-4 lg:px-10 items-center justify-between bg-amber-400 text-2xl h-[10vh]">
+            <div className="flex flex-row gap-4 lg:px-10 items-center justify-between text-2xl h-[10vh]">
                 {/* Logo */}
                 <Link to='/home' className="text-3xl text-white flex justify-center">
                     <img

@@ -2,12 +2,13 @@ import React from "react";
 import { CalendarDays, MapPin } from "lucide-react";
 import TimeLineCard from "../timeline/TimelineCard";
 import "./Landing.css";
+import { Separator } from "../ui/separator";
 
-const Landing = () => {
+const Landing: React.FC = () => {
   return (
     <div>
-      <div className="main-image w-full h-[100vh] bg-red-500 text-white">
-        <div className="flex flex-col justify-center items-center pt-[20vh] gap-[18px]">
+      <div className="main-image w-full h-[100vh] home-container text-white">
+        <div className="flex flex-col justify-center items-center pt-[12vh] gap-[18px]">
           <div>
             <h1 className="uppercase text-7xl font-bold">stavya 2024</h1>
           </div>
@@ -36,8 +37,40 @@ const Landing = () => {
           </p>
         </div>
       </div>
-      <div>
-        <TimeLineCard />
+
+      <div className="flex flex-col justify-center items-center p-[2rem] ">
+        <div>
+          <h1 className="text-4xl mb-[20px]">Event Timeline</h1>
+        </div>
+        <div className="w-[90vw] ">
+          <Separator className="py-0.5 my-[2vh]"/>
+        </div>
+        <div className="timeline-container">
+          <div className="timeline-item-main">
+            <TimeLineCard day={1} />
+            <div className="timeline-content">
+              {/* Add your content for day 1 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={2} />
+            <div className="timeline-content">
+              {/* Add your content for day 2 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={3} />
+            <div className="timeline-content">
+              {/* Add your content for day 3 */}
+            </div>
+          </div>
+          <div className="timeline-item-main">
+            <TimeLineCard day={4} />
+            <div className="timeline-content">
+              
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

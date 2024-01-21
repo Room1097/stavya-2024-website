@@ -1,0 +1,25 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+  
+  .timeline-item-main {
+    position: relative;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item-main:nth-child(odd) {
+    /* border-right: 3px solid black; */
+    padding-left: 3em;
+    transform: translateX(-50%); 
+  }
+  
+  .timeline-item-main:nth-child(even) {
+    /* border-left: 3px solid black; */
+    padding-right: 3em;
+    transform: translateX(50%); 
+  }
+  
