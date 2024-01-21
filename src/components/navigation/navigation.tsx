@@ -6,11 +6,11 @@ import './navigation.css';
 const Navigation = () => {
     return (
         <div className="nav">
-            <div className="flex flex-row gap-4 lg:px-10 items-center justify-between border-red-500 text-2xl">
+            <div className="flex flex-row gap-4 lg:px-10 items-center justify-between bg-amber-400 text-2xl h-[10vh]">
                 {/* Logo */}
                 <Link to='/home' className="text-3xl text-white flex justify-center">
                     <img
-                        className="lg:h-48 logo"
+                        className="lg:h-[14vh] logo"
                         src="src/assets/img/logo.png" alt=""
                     />
                 </Link>

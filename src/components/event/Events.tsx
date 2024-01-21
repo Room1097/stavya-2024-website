@@ -1,5 +1,5 @@
 import React from "react";
-import EventCard from "./cards/card";
+import EventCard from "../event_card/card";
 import { Separator } from "../ui/separator";
 import { EventsDB } from "../../assets/eventdata/EventsDB";
 

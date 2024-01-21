@@ -20,7 +20,6 @@ interface EventCardProps {
   registerUrl: string;
   description: string;
 }
-// ... (previous imports)
 
 const EventCard: React.FC<EventCardProps> = ({
   title,
