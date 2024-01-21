@@ -9,13 +9,45 @@
   flex-direction: column;
   box-shadow: 0 0 10px orange, 0 0 10px #51589c, 0 0 10px orange, 0 0 10px orange;
   opacity: 1;
+
+}
+
+.person-card-container{
+  transition: all 0.5s ease;
+}
+
+.person-card-container:hover{
+  transform: scale(1.06);
 }
 
 
-.person-card:hover {
-  transform: scale(1.05);
-  background-color: orange;
+.person-card-slide::before{
+  content: '';
+  position: absolute;
+  border-radius: 16px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(255,215,0,1) 0%, rgba(255,144,28,1) 75%);
+  transition: transform 300ms ease-in-out;
+  transform: scaleY(0);
+  transform-origin: bottom;
 }
+
+.person-card-slide:hover::before, .person-card-slide:focus::before{
+  transform: scaleY(1);
+}
+
+.person-card .person-card-slide{
+  z-index: 1;
+}
+
+.person-card .person-card-slide:hover, .person-card-slide:focus{
+
+}
+
 
 .person-card:hover .profile-pic img {
   border: 2px solid #646363;
@@ -23,7 +55,7 @@
 }
 
 .person-card:hover .details__name {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .profile-pic{
@@ -40,7 +72,7 @@
 }
 
 .profile-pic img:hover {
-
+  transform: scale(1.05);
 }
 
 .details {
@@ -117,3 +149,4 @@
 .beat{
   animation: beat 0.5s ease 1.8s infinite alternate-reverse both;
 }
+
