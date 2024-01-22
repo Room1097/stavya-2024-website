@@ -32,7 +32,7 @@ const Footer = () => {
         {/* Hide on small screens */}
         <div className='right-footer lg:w-1/3 hidden sm:block lg:flex lg:flex-col lg:items-center lg:justify-center gap-[60px]'>
           <div>
-            <img src="src/assets/img/WEB2.png" className="lg:w-[16rem] h-full" alt="" />
+            <img src="public/img/WEB2.png" className="lg:w-[16rem] h-full" alt="" />
           </div>
           <p className='ml-[8vw] text-center w-[26rem] lg:text-left flex flex-col gap-2'>
             <span className='text-2xl'>Indian Institute of Information Technology Vadodara</span>
