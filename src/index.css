@@ -1,9 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-body{
-  /* background: linear-gradient(90deg, rgba(253, 212, 6, 0.50) 50%, rgba(247, 153, 50, 0.50) 100%); */
+
+
+/* index.css or global styles */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.root{
+  overflow-x: hidden;
+}
+
+/* Add any other styles you need */
+
+@font-face {
+  font-family: "Rialto";
+  src: url(assets/fonts/RialtoNF.otf);
+}
+
+@font-face {
+  font-family: "Movie";
+  src: url(assets/fonts/Movie\ Poster\ Personal\ Use.ttf);
+}
+
+@font-face {
+  font-family: "Net";
+  src: url(assets/fonts/FontsFree-Net-House-of-cards-W03-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Undev";
+  src: url(assets/fonts/Undeveloped.ttf);
+}
+
+@font-face {
+  font-family: "Undev-Book";
+  src: url(assets/fonts/UndevelopedBook.ttf);
 }
 
 @layer base {
@@ -28,6 +62,11 @@ body{
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
+
+    --main: black;
+    --accent-1: #EB26A2;
+    --accent-2: #0B88FD;
+    --main-light: white; 
   }
 
   .dark {

@@ -19,6 +19,8 @@ module.exports = {
     extend: {
       colors: {
         border: "hsl(var(--border))",
+        accent1: "var(--accent-1)",
+        accent2: "var(--accent-2)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
@@ -65,6 +67,13 @@ module.exports = {
           "accordion-down": "accordion-down 0.2s ease-out",
           "accordion-up": "accordion-up 0.2s ease-out",
         },
+      },
+      fontFamily :{
+        Movie : ["Movie"],
+        NetHouse : ["Net"],
+        Rialto : ["Rialto"],
+        Undev : ["Undev"],
+        UndevBook : ["Undev-Book"]
       },
       borderRadius: {
         lg: "var(--radius)",

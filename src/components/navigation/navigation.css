@@ -1,10 +1,7 @@
-.nav {
-    background: linear-gradient(270deg, rgba(253, 212, 6, 0.50) 50%, rgba(247, 153, 50, 0.50) 100%);
-}
 
 .nav-text {
     font-size: 1.4rem;
-    color: rgb(68, 67, 67);
+    color: var(--main-light);
     position: relative;
     padding: 0 8px;
 }
@@ -12,7 +9,7 @@
 .nav-text:after {
     content: "";
     position: absolute;
-    background-color: #b56f1c;
+    background-color: var(--accent-2);
     height: 3px;
     width: 0;
     left: 0;
@@ -32,6 +29,11 @@
 }
 
 @media screen and (max-width: 640px) {
+
+    .nav {
+        /* background: linear-gradient(270deg, var(--accent-2) 50%, var(--accent-1) 100%); */
+    }
+
     .nav-text {
         display: flex;
         flex-direction: column;
@@ -49,10 +51,10 @@
         top: 0;
         right: 0;
         height: 100vh;
-        width: 50vw; 
-        background: rgb(0, 33, 65);
+        width: 30vw; 
+        background: var(--accent-2);
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: transform 0.3s ease-in-out;
         z-index: 1;
         display: flex;
         flex-direction: column;
