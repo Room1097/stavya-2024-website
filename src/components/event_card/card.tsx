@@ -47,9 +47,11 @@ const EventCard: React.FC<EventCardProps> = ({
     return (
       
       <ul className="list-disc ml-6">
-        <ScrollArea className="rounded-md border border-slate-700 lg:h-96 h-56 text-lg">
+        <ScrollArea className="rounded-md border border-slate-700 lg:h-96 h-56 text-xl p-4 ">
         {rules.map((rule, index) => (
-          <div>{rule}</div>
+          <div className="p-3">{rule}
+          <Separator className="mt-4"/>
+          </div>
           ))}
       </ScrollArea>
       </ul>
@@ -82,14 +84,14 @@ const EventCard: React.FC<EventCardProps> = ({
             {description}
           </p>
 
-          <Dialog>
+          <Dialog >
           
               <DialogTrigger>
                 <Button variant="link" className="mt-5 text-xl px-0 ">
                   More
                 </Button>
               </DialogTrigger>
-              <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1">
+              <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1 w-max">
                 <div className=" font-bold lg:text-xl text-sm"> Organizers</div>
               <div className="w-full flex lg:flex-row flex-col gap-5">
                 <Card className="hover:shadow-lg hover:shadow-accent2">
