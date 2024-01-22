@@ -1,4 +1,5 @@
-import React, { useRef, useEffect } from "react";
+
+import React, { useRef, useEffect, useState } from "react";
 import { CalendarDays, MapPin } from "lucide-react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -12,40 +13,9 @@ const days = [1, 2, 3, 4, 5, 6, 7, 8];
 const Landing: React.FC = () => {
   const tlRef = useRef<HTMLDivElement>(null);
 
+  const [render, isRender] = useState(false);
+
   useEffect(() => {
-    gsap.fromTo(
-      ".main-image",
-      { backgroundPositionY: "50%" },
-      {
-        backgroundPositionY: "0%",
-        ease: "power2.inOut",
-        duration: 2,
-        scrollTrigger: {
-          trigger: ".main-image",
-          start: "top center",
-          end: "bottom center",
-          scrub: 1,
-        },
-      }
-    );
-
-    gsap.fromTo(
-      tlRef.current,
-      { opacity: 0, y: 50 },
-      {
-        opacity: 1,
-        y: 0,
-        ease: "expo",
-        duration: 2.5,
-        scrollTrigger: {
-          trigger: tlRef.current,
-          start: "top center",
-          end: "bottom center",
-          scrub: 1,
-        },
-      }
-    );
-
     const cards = Array.from(tlRef.current?.children || []);
 
     if (window.innerWidth > 768) {
@@ -76,40 +46,45 @@ const Landing: React.FC = () => {
             duration: 1.5,
             scrollTrigger: {
               trigger: card,
-              start: "top center",
-              end: "bottom center",
+              start: "top 100%", 
+              end: "bottom 0%",
               scrub: 1,
             },
-            stagger: 0.2,
+            stagger: 1,
           }
         );
       });
     } else {
-      gsap.fromTo(
-        cards,
-        { opacity: 0, scale: 0.5 },
-        {
-          opacity: 1,
-          scale: 1,
-          ease: "expo",
-          duration: 2.5,
-          scrollTrigger: {
-            trigger: tlRef.current,
-            start: "top center",
-            end: "bottom center",
-            scrub: 1,
-          },
+        if(cards.length > 0){
+          cards.forEach((card: Element) => {
+            gsap.fromTo(
+              card,
+              { opacity: 0, y: 50 },
+              {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                ease: "power4.out",
+                scrollTrigger: {
+                  trigger: card,
+                  start: "top 100%",
+                  end: "bottom 0%",
+                  scrub: 1,
+                },
+              }
+            );
+          });
         }
-      );
     }
   }, []);
+
 
   return (
     <div>
       <div className="main-image lg:h-[100vh] h-[65vh] home-container text-white">
-        <div className="overlay absolute top-0 right-0 bottom-0 left-0 w-full h-full"></div>
+        <div className="overlay absolute top-0 right-0 bottom-0 left-0 w-full h-full">
 
-
+        </div>
         <div className="flex flex-col justify-center items-center lg:pt-[5vh] pt-[8vh] lg:gap-[0px] gap-[10px] text-box-landing">
           <div className="uppercase font-Undev flex gap-[0px] ">
             <span className="lg:text-[10rem] text-5xl ">stavya</span>
@@ -142,7 +117,7 @@ const Landing: React.FC = () => {
         </div>
       </div>
 
-      <div className="timeline-super-div pb-10">
+      <div className="timeline-super-div">
         <div className="flex flex-col justify-center items-center pb-10 timeline-pattern">
           <div>
             <h1 className="lg:text-4xl text-2xl my-[20px] font-Rialto">
@@ -159,7 +134,7 @@ const Landing: React.FC = () => {
                 <div className="time-line-item-main lg:w-[50%]">
                   <TimeLineCard day={day} />
                 </div>
-                <div className="flex justify-center items-center lg:w-[50%]">
+                <div className="lg:flex justify-center items-center lg:w-[50%] hidden">
                   <h1 className="lg:text-5xl text-xl font-bold day-text lg:block hidden">
                     {" "}
                     Day {day}
