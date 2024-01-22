@@ -7,6 +7,7 @@ import "swiper/css/autoplay";
 import Footer from "../footer/Footer";
 
 const Gallery = () => {
+  
   return (
     <>
       <div className="w-full flex justify-center items-center text-black font-mono h-24 text-4xl">
