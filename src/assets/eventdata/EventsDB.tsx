@@ -10,7 +10,7 @@ export const EventsDB = [
                 "Rule 1: Your first rule here",
                 "Rule 2: Your second rule here",
                 "Rule 2: Your second rule here",
-                "Rule 2: Your second rule here",
+                "Rule 2: Your second rule here ksdjfkFK;VLBVLBVALSVBLASBVKBKVBSKVBKSBVKJBSKDVBJSVDBKBSKBVDKBSVKBSKVAKCNKBCKSBVKBSVKBSVKSB",
                 
               ],
              regdate: "26 Jan",

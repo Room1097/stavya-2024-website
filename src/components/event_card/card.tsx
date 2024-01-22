@@ -4,12 +4,8 @@ import "./card.css"; // Import the CSS file for styling
 import { Button } from "@/components/ui/button";
 import { ArrowDown, ArrowUp } from "lucide-react";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Card,CardContent } from "../ui/card";
+import { Avatar,AvatarImage } from "../ui/avatar";
 
 import { Dialog,DialogContent,DialogTrigger } from "../ui/dialog";
 
@@ -91,6 +87,27 @@ const EventCard: React.FC<EventCardProps> = ({
                 </Button>
               </DialogTrigger>
               <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1">
+                <div className=" font-bold lg:text-xl text-sm"> Organizers</div>
+              <div className="w-full flex gap-x-5">
+                <Card className="hover:shadow-lg hover:shadow-accent2">
+                  <CardContent className="flex items-center gap-x-3 p-3">
+
+                  <Avatar className="w-20 h-20">
+                    <AvatarImage src="https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg"/>                    
+                  </Avatar>
+                  <h1 className="lg:text-2xl">john doe</h1>
+                  </CardContent>
+                </Card>
+                <Card className=" hover:shadow-lg hover:shadow-accent2">
+                  <CardContent className="flex items-center gap-x-3 p-3">
+
+                  <Avatar className="w-20 h-20">
+                    <AvatarImage  src="https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg"/>                    
+                  </Avatar>
+                  <h1 className="lg:text-2xl">john doe</h1>
+                  </CardContent>
+                </Card>
+              </div>
                 <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
                   <div className=" font-bold lg:text-xl text-sm"> Rules</div>
                   <p>
