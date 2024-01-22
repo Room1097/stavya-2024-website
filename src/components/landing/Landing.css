@@ -1,11 +1,12 @@
 .home-container {
     position: relative;
-    background-image: url(src/assets/img/HOME.svg);
+    background-image: url(public/img/MAIN-01-01.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.27);
+    background-color: rgba(0, 0, 0, 0.295);
     color: white;
-    z-index: inherit; /* Set text color to white or any other color that contrasts well */
+    z-index: inherit;
+    overflow: hidden; 
 }
 
 .day-text{

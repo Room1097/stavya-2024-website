@@ -8,7 +8,7 @@ const Navigation = () => {
 
     const toggleMenu = () => {
         setIsActive(!isActive);
-    };
+    };    
 
     return (
         <div className="nav w-[100vw]">

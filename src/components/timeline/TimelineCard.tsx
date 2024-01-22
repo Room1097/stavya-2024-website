@@ -43,6 +43,9 @@ const TimeLineCard: React.FC<TimeLineCardProps> = ({ day }) => {
 
   return (
     <div className="flex flex-col justify-center items-center border-zinc-800 border-2 py-[1.2em] rounded-2xl text-black time-card-container">
+      <div className="lg:hidden block">
+        <h1 className="font-NetHouse">Day {day}</h1>
+      </div>
       <div className="p-[2rem] w-[100%] lg:w-[30vw] flex flex-col justify-center items-center">
         {selectedDay.map((event, index) => (
           <TimelineElem
