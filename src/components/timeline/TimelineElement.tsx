@@ -10,9 +10,9 @@ interface TimelineProps {
 
 const TimelineElem: React.FC<TimelineProps> = ({ title, startTime, endTime }) => {
   return (
-    <div className="timeline-item py-[12px]">
+    <div className="timeline-item  py-[12px]">
       <div className="timeline-content flex flex-col items-center">
-        <h1 className="lg:text-lg text-sm">{title}</h1>
+        <h1 className="lg:text-lg text-sm font-semibold font-NetHouse">{title}</h1>
         <h2 className="lg:text-[1.5vh] text-[1vh]">
           {startTime} - {endTime}
         </h2>

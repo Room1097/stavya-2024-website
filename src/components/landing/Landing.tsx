@@ -69,7 +69,7 @@ const Landing: React.FC = () => {
       cards.forEach((card: Element, index) => {
         gsap.fromTo(
           card,
-          { x: (index % 2 === 0 ? "100%" : "-100%") },
+          { x: index % 2 === 0 ? "100%" : "-100%" },
           {
             x: "0%",
             ease: "power3.out",
@@ -109,6 +109,7 @@ const Landing: React.FC = () => {
       <div className="main-image lg:h-[100vh] h-[65vh] home-container text-white">
         <div className="overlay absolute top-0 right-0 bottom-0 left-0 w-full h-full"></div>
 
+
         <div className="flex flex-col justify-center items-center lg:pt-[5vh] pt-[8vh] lg:gap-[0px] gap-[10px] text-box-landing">
           <div className="uppercase font-Undev flex gap-[0px] ">
             <span className="lg:text-[10rem] text-5xl ">stavya</span>
@@ -133,27 +134,40 @@ const Landing: React.FC = () => {
         <div className="flex flex-col lg:gap-[20px] justify-center items-center pt-[6vh]">
           <h1 className="lg:text-3xl uppercase font-bold">about the event</h1>
           <p className="lg:w-[40vw] w-[60vw] text-center pb-10 lg:pb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quo, sit ea rem est dignissimos provident cum officiis? Culpa animi quae quos labore quas dignissimos, fuga dolorem veniam consectetur perferendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            quo, sit ea rem est dignissimos provident cum officiis? Culpa animi
+            quae quos labore quas dignissimos, fuga dolorem veniam consectetur
+            perferendis.
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center timeline-super-div pb-10">
-        <div>
-          <h1 className="lg:text-4xl text-2xl my-[20px] font-Rialto">Event Timeline</h1>
-        </div>
+      <div className="timeline-super-div pb-10">
+        <div className="flex flex-col justify-center items-center pb-10 timeline-pattern">
+          <div>
+            <h1 className="lg:text-4xl text-2xl my-[20px] font-Rialto">
+              Event Timeline
+            </h1>
+          </div>
 
-        <div className="timeline-container" ref={tlRef}>
-          {days.map((day) => (
-            <div key={day} className="timeline-wrapper my-[2rem] flex flex-col lg:flex-row gap-[10vw]">
-              <div className="time-line-item-main lg:w-[50%]">
-                <TimeLineCard day={day} />
+          <div className="timeline-container" ref={tlRef}>
+            {days.map((day) => (
+              <div
+                key={day}
+                className="timeline-wrapper my-[2rem] flex flex-col lg:flex-row gap-[10vw]"
+              >
+                <div className="time-line-item-main lg:w-[50%]">
+                  <TimeLineCard day={day} />
+                </div>
+                <div className="flex justify-center items-center lg:w-[50%]">
+                  <h1 className="lg:text-5xl text-xl font-bold day-text lg:block hidden">
+                    {" "}
+                    Day {day}
+                  </h1>
+                </div>
               </div>
-              <div className="flex justify-center items-center lg:w-[50%]">
-                <h1 className="lg:text-5xl text-xl font-bold day-text"> Day {day}</h1>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

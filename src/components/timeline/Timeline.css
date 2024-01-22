@@ -4,6 +4,12 @@
     align-items: center;
     justify-content: center;
     width: 60%;
+    
+   
+  }
+  .time-card-container{
+    background: rgb(197,255,251);
+background: radial-gradient(circle, rgba(197,255,251,1) 0%, rgba(253,255,195,1) 100%);
   }
   
   @media screen and (max-width: 640px) {

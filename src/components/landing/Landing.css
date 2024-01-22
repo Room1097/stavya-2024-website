@@ -14,7 +14,9 @@
 
 .timeline-wrapper:nth-child(even){
     flex-direction: row-reverse;
+    opacity: 1;
 }
+
 
 .overlay {
   
@@ -24,12 +26,18 @@
 
 .timeline-super-div {
     background: linear-gradient(90deg, var(--accent-1) 20%, var(--accent-2) 90%);
-    /* background-image: url(public/img/Patten.webp); */
+}
+.timeline-pattern{
+    background-image: url(public/img/pattern3.png);
+    /* opacity: 0.6; */
 }
 
 
 @media screen and (max-width: 640px) {
-    .timeline-wrapper:nth-child(even){
-        flex-direction: row;
+    .timeline-wrapper{
+        flex-direction: column;
     }
+    /* .timeline-wrapper:nth-child(odd){
+        flex-direction: row;
+    } */
 }
