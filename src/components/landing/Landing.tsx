@@ -14,16 +14,23 @@ const Landing: React.FC = () => {
   return (
     <div>
       <div className="main-image w-full lg:h-[100vh] h-[65vh] home-container text-white">
-        <div className="flex flex-col justify-center items-center lg:pt-[12vh] pt-[8vh] lg:gap-[18px] gap-[10px]">
+        <div className="overlay absolute top-0 right-0 bottom-0 left-0 w-full h-full"></div>
+        
+        <div className="flex flex-col justify-center items-center lg:pt-[5vh] pt-[8vh] lg:gap-[0px] gap-[10px] text-box-landing">
+          
+            <div className="uppercase font-Undev flex gap-[0px] "> 
+              <span className="lg:text-[10rem] text-5xl ">stavya</span> 
+              <span className="lg:text-[10rem] text-5xl ">2024</span> 
+            </div>
+          
+            <div className="uppercase lg:text-4xl font-NetHouse flex gap-[20px]">
+              <span className="text-5xl">Retro </span>  
+              <span className="text-5xl">Rythms</span>    
+              <span className="text-5xl">Revisited</span>
+            </div>
+
           <div>
-            <h1 className="uppercase lg:text-7xl text-5xl font-bold">stavya 2024</h1>
-          </div>
-          <div>
-            <h2 className="uppercase font-bold text-xl lg:text-2xl">
-              Retro. Rythms. Revisited.
-            </h2>
-          </div>
-          <div>
+            
             <h3 className="uppercase flex gap-2">
               <CalendarDays />
               26th January | Event garden
@@ -41,17 +48,20 @@ const Landing: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center p-[2rem] timeline-super-div">
+      <div className="flex flex-col justify-center items-center timeline-super-div pb-10">
         <div>
-          <h1 className="text-4xl mb-[20px]">Event Timeline</h1>
+          <h1 className="text-4xl my-[20px] font-Rialto">Event Timeline</h1>
         </div>
-        <div className="w-[90vw] ">
-          <Separator className="py-0.5 my-[2vh] bg-amber-600" />
-        </div>
+
         <div className="timeline-container">
           {days.map((day) => (
-            <div key={day} className="timeline-item-main">
-              <TimeLineCard day={day} />
+            <div key={day} className="timeline-wrapper my-[2rem] flex gap-[10vw]">
+              <div className="time-line-item-main">
+                <TimeLineCard day={day} />
+              </div>
+              <div className="flex justify-center items-center">
+                <h1 className="text-5xl font-bold day-text"> Day {day}</h1>
+              </div>
             </div>
           ))}
         </div>

@@ -58,7 +58,7 @@ const EventCard: React.FC<EventCardProps> = ({
 
   return (
     <article
-      className={`event-card flex lg:flex-row gap-5 mb-20 lg:p-8 border-orange-500 border-2 rounded-lg lg:w-[90%] transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-[#FFA500] ${
+      className={`event-card flex lg:flex-row gap-5 mb-20 lg:p-8 border-accent1 border-2 rounded-lg lg:w-[90%] transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent2 ${
         expanded ? "lg:h-auto" : "lg:h-[30rem]"
       } event__card`}
     >

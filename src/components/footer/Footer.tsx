@@ -5,7 +5,7 @@ import { Copyright } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <div className='relative bottom-0 bg-orange-400 pb-4 text-gray-800'>
+    <div className='relative bottom-0 pb-4  text-gray-100 footer-main'>
       <Separator className='bg-slate-700' />
       <div className='flex flex-col lg:flex-row justify-center items-center lg:justify-between mt-5 mx-4 lg:mx-60 py-10 lg:gap-40'>
         <div className='flex lg:flex-col flex-row lg:gap-5 gap-3 lg:items-start items-center'>
@@ -30,11 +30,14 @@ const Footer = () => {
         </div>
 
         {/* Hide on small screens */}
-        <div className='right-footer lg:w-1/3 hidden sm:block'>
-          <p className='text-center lg:text-left flex flex-col gap-2'>
-            <span className='text-3xl'>Indian Institute of Information Technology Vadodara</span>
-            <span className='text-2xl'>International Campus Diu</span>
-            <span className='text-xl'>Education Hub, Kevdi, Diu(U.T)- 362520</span>
+        <div className='right-footer lg:w-1/3 hidden sm:block lg:flex lg:flex-col lg:items-center lg:justify-center gap-[60px]'>
+          <div>
+            <img src="src/assets/img/WEB2.png" className="lg:w-[16rem] h-full" alt="" />
+          </div>
+          <p className='ml-[8vw] text-center w-[26rem] lg:text-left flex flex-col gap-2'>
+            <span className='text-2xl'>Indian Institute of Information Technology Vadodara</span>
+            <span className='text-xl'>International Campus Diu</span>
+            <span className='text-lg'>Education Hub, Kevdi, Diu(U.T)- 362520</span>
           </p>
         </div>
       </div>
