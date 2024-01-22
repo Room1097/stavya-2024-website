@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import "./card.css"; // Import the CSS file for styling
 import { Button } from "@/components/ui/button";
-import { ArrowDown, ArrowUp } from "lucide-react";
+import { ScrollArea } from "../ui/scroll-area";
 
 import { Card,CardContent } from "../ui/card";
 import { Avatar,AvatarImage } from "../ui/avatar";
@@ -45,10 +45,13 @@ const EventCard: React.FC<EventCardProps> = ({
   }
   const renderRulesList = () => {
     return (
+      
       <ul className="list-disc ml-6">
+        <ScrollArea className="rounded-md border border-slate-700 lg:h-96 h-56 text-lg">
         {rules.map((rule, index) => (
-          <li key={index}>{rule}</li>
-        ))}
+          <div>{rule}</div>
+          ))}
+      </ScrollArea>
       </ul>
     );
   };
@@ -88,7 +91,7 @@ const EventCard: React.FC<EventCardProps> = ({
               </DialogTrigger>
               <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1">
                 <div className=" font-bold lg:text-xl text-sm"> Organizers</div>
-              <div className="w-full flex gap-x-5">
+              <div className="w-full flex lg:flex-row flex-col gap-5">
                 <Card className="hover:shadow-lg hover:shadow-accent2">
                   <CardContent className="flex items-center gap-x-3 p-3">
 
