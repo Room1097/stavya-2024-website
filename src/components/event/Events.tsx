@@ -23,7 +23,7 @@ interface EventProps {
 }
 
 const Event: React.FC<EventProps> = ({ data }) => {
-  const cardsPerLine = 4;
+  // const cardsPerLine = 4;
   const cardsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
