@@ -1,6 +1,7 @@
 import React from 'react';
 import Cult from '../cult-comm/Cult';
 import Lit from '../lit-comm/Lit';
+import Club from '../clubs/Clubs';
 
 const AboutUs = () => {
   return (
@@ -10,6 +11,9 @@ const AboutUs = () => {
       </div>
       <div className='lg:mb-[2rem]'>
         <Lit />
+      </div>
+      <div className='lg:mb-[2rem]'>
+        <Club />
       </div>
       <div className=''>
 

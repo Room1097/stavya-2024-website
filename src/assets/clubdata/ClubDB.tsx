@@ -1,17 +1,19 @@
 
 export const ClubDB = [
-    {
-      "name": "John Doe",
-      "image": "src/assets/img/cultpics/avatar.png",
-      "team" : "Cultural Committee",
-      "contact": "john@example.com"
-    },
-    {
-      "name": "Jane Doe",
-      "image": "src/assets/img/cultpics/avatar.png",
-      "team" : "Cultural Committee",
-      "contact": "jane@example.com"
-    },
+  {
+    "name": "Harshit Soni",
+    "image": "src/assets/img/cultpics/avatar.png",
+    "team" : "Essence",
+    "linkedin": "https://www.linkedin.com",
+    "insta": "https://www.instagram.com"
+  },
+  {
+    "name": "Rituraj Kumar",
+    "image": "src/assets/img/cultpics/avatar.png",
+    "team" : "Uktam",
+    "linkedin": "https://www.linkedin.com",
+    "insta": "https://www.instagram.com"
+  },
     
-  ]
-  
+]
+
