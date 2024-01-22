@@ -5,7 +5,7 @@ import { Copyright } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <div className='relative bottom-0 pb-4  text-gray-100 footer-main'>
+    <div className='relative bottom-0 pb-4  text-gray-100 footer-main '>
       <Separator className='bg-slate-700' />
       <div className='flex flex-col lg:flex-row justify-center items-center lg:justify-between mt-5 mx-4 lg:mx-60 py-10 lg:gap-40'>
         <div className='flex lg:flex-col flex-row lg:gap-5 gap-3 lg:items-start items-center'>

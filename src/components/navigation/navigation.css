@@ -31,7 +31,7 @@
 @media screen and (max-width: 640px) {
 
     .nav {
-        background: linear-gradient(270deg, var(--accent-2) 50%, var(--accent-1) 100%);
+        /* background: linear-gradient(270deg, var(--accent-2) 50%, var(--accent-1) 100%); */
     }
 
     .nav-text {

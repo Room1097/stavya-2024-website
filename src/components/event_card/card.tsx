@@ -66,7 +66,7 @@ const EventCard: React.FC<EventCardProps> = ({
         <img
           src={img}
           alt={`Event: ${title}`}
-          className="event-image lg:w-[12rem] rounded-md "
+          className="event-image lg:w-[16rem] rounded-md "
         />
       </div>
       <div className={`event-details-container w-[80%] h-auto`}>
