@@ -18,6 +18,11 @@ interface EventCardProps {
   description: string;
   rules:string[];
   regdate : string;
+  organizers1 : string; 
+  organizers1Photo : string; 
+  organizers2 : string; 
+  organizers2Photo : string; 
+ 
 }
 
 const EventCard: React.FC<EventCardProps> = ({
@@ -28,7 +33,12 @@ const EventCard: React.FC<EventCardProps> = ({
   registerUrl,
   description,
   rules,
-  regdate
+  regdate,
+  organizers1,
+  organizers1Photo,
+  organizers2, 
+  organizers2Photo
+ 
 }) => {
   const [expanded, setExpanded] = useState(true);
 
@@ -98,18 +108,18 @@ const EventCard: React.FC<EventCardProps> = ({
                   <CardContent className="flex items-center gap-x-3 p-3">
 
                   <Avatar className="w-20 h-20">
-                    <AvatarImage src="https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg"/>                    
+                    <AvatarImage src={organizers1Photo}/>                    
                   </Avatar>
-                  <h1 className="lg:text-2xl">john doe</h1>
+                  <h1 className="lg:text-2xl">{organizers1}</h1>
                   </CardContent>
                 </Card>
                 <Card className=" hover:shadow-lg hover:shadow-accent2">
                   <CardContent className="flex items-center gap-x-3 p-3">
 
                   <Avatar className="w-20 h-20">
-                    <AvatarImage  src="https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg"/>                    
+                    <AvatarImage  src={organizers2Photo}/>                    
                   </Avatar>
-                  <h1 className="lg:text-2xl">john doe</h1>
+                  <h1 className="lg:text-2xl">{organizers2}</h1>
                   </CardContent>
                 </Card>
               </div>
@@ -118,7 +128,7 @@ const EventCard: React.FC<EventCardProps> = ({
                   <p>
                     {renderRulesList()}
                   </p>
-                  <div className=" font-bold lg:text-xl text-sm"> Registration date</div>
+                  <div className=" font-bold lg:text-xl text-sm mt-2"> Registration date</div>
                   <p>
                     {regdate}
                   </p>
