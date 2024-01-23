@@ -1,7 +1,7 @@
 export const EventsDB = [
   {
     img: "/src/assets/img/eventpics/SHASHWAT.png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://forms.gle/YjfMvzaz596CGFLZ7",
     title: "Art Competition",
     description:
       "🎨 Welcome to the Genesis Art Club's Inter-Institute Art Competition! - 𝐂𝐡𝐢𝐭𝐫𝐚𝐤𝐚𝐥𝐚 🖌 Unleash your creativity as you bring the given themes to life on canvas. 🌟 Join fellow artists in this vibrant celebration of art, where your masterpiece could be the highlight of the event! 🏆 Let your imagination run wild and paint your way to artistic glory in our institute's informal art contest. Get ready for a brush with brilliance! 🌈",
@@ -15,14 +15,14 @@ export const EventsDB = [
       "Rule 5: In case of any dispute concerning the team and the competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1: "john doe",
+    organizers1: "Nimbalkar Siddarth",
     organizers1Photo: "img/cultpics/avatar.png",
-    organizers2: "john doe",
+    organizers2: "Bhargav Gugulothu",
     organizers2Photo: "img/cultpics/avatar.png",
   },
   {
     img: "/src/assets/img/eventpics/SHASHWAT.png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://forms.gle/4Bf1H61Ahhu7rS3Y9",
     title: "Digital Cartooning",
     description:
       "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
@@ -37,14 +37,14 @@ export const EventsDB = [
       "Rule 6: In case of any dispute concerning the team and the competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1: "john doe",
+    organizers1: "Nimbalkar Siddarth",
     organizers1Photo: "img/cultpics/avatar.png",
-    organizers2: "john doe",
+    organizers2: "Bhargav Gugulothu",
     organizers2Photo: "img/cultpics/avatar.png",
   },
   {
     img: "img/eventpics/What If (30 x 36 in).png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://forms.gle/wPSJiRtoXosSmpbu7",
     title: "What If (Group Skit)",
     description:
       "🌟 Get ready for a night of theatrical magic with Eloquence Drama Club! 🎭✨Join us in an exciting role reversal challenge where teams of three perform as characters opposite to their real selves. 🕺💃👥🏆 #EloquenceDramaNight 🌟🎭",
@@ -60,14 +60,14 @@ export const EventsDB = [
       "Rule 7: In case of any dispute regarding the team and competition's rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1: "john doe",
-    organizers1Photo: "img/cultpics/avatar.png",
-    organizers2: "john doe",
-    organizers2Photo: "img/cultpics/avatar.png",
+    organizers1 : "Ajay Deep",
+    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers2 : "Suryansh Singh Raghuvansh", 
+    organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
     img: "img/eventpics/Bollywood Quiz (30 x 36 in).png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://forms.gle/nJFkVkSVPFWYbi8U7",
     title: "Bollywood Quiz",
     description:
       "Dive into the glitz and glamour of Bollywood at our Quiz Event! Test your filmy knowledge and dance your way to fabulous prizes join us for a fun and entertaining quiz ! 🌟💃 #BollywoodQuizEvent 🍿🎉",
@@ -87,32 +87,32 @@ export const EventsDB = [
       "Rule 11: In case of any dispute regarding the team and competition's rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Ajay Deep",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Suryansh Singh Raghuvansh", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
     img: "img/eventpics/NRITYAKALA (30 x 36 in).png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLSejGb4G2mGQCemFLsq3Erijy0y-J2uCNHw714OVXn4TRcK-qw/viewform?usp=sf_link",
     title: "Nrityakala",
     description:
       "Step into the mesmerizing world of Bollywood at our Nrityakala dance event! Experience the allure of vibrant dance performances, immerse yourself in the enchanting choreography, and sway to the rhythm of a night filled with dazzling moves. Join us for an evening of captivating dance, unforgettable moments, and the sheer joy of movement! 💃✨ #NrityakalaDanceEvent 🎉",
     startDate: "28 Jan",
     rules: [
-      "Rule 1: Eachparticipant or group is allotted a maximum performance time of 3 minutes.",
+      "Rule 1: Each participant or group is allotted a maximum performance time of 3 minutes.",
       "Rule 2: The event will take place on a well-equipped stage with high-quality audio equipment.",
       "Rule 3: Participants are encouraged to bring their unique artistic interpretations to the freestyle theme.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Sumedha Baghmar",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Diya Bhati", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
     img: "img/eventpics/Photography Workshop (30 x 36 in).png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://forms.gle/9AgPZGJPp2j1xPNy9",
     title: "Photography contest",
     description:
       "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
@@ -139,14 +139,14 @@ export const EventsDB = [
       "Rule 18: In case of any dispute with regards to the team and competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Kamal Meena",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Kumar Shantanu", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
     img: "img/eventpics/Copy of ANTAKSHARI (30 x 36 in).png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://forms.gle/HoMyDGufv49zJR829",
     title: "Antakshari Music Battle",
     description:
       "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
@@ -165,9 +165,9 @@ export const EventsDB = [
       "Rule 10: In case of any dispute regarding the team and the battle's rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Naveen",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Omni Manvani", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
@@ -207,10 +207,11 @@ export const EventsDB = [
       "Rule 5: If a participant’s action raises suspicion for the organizers, their candidature can be questioned. The organizers can take such decisions to ensure a fair competition.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Harshit Soni",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Devrikh Jatav", 
     organizers2Photo : "img/cultpics/avatar.png" 
+  
   },
   {
     img: "img/eventpics/confero (30 x 36 in).png",
@@ -227,9 +228,9 @@ export const EventsDB = [
       "Rule 4: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Rituraj Kumar",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Anay Kumar Pandey", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
@@ -249,9 +250,9 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Srijan sharma",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Devrikh Jatav", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
@@ -271,10 +272,11 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Srijan sharma",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Devrikh Jatav", 
     organizers2Photo : "img/cultpics/avatar.png" 
+  
   },
   {
     img: "img/eventpics/OPEN MIC (30 x 36 in).png",
@@ -312,10 +314,7 @@ export const EventsDB = [
       "Rule 5: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
-    organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    
   },
   {
     img: "/src/assets/img/eventpics/SHASHWAT.png",
@@ -333,23 +332,20 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Srijan sharma",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Devrikh Jatav", 
     organizers2Photo : "img/cultpics/avatar.png" 
+  
   },
   {
     img: "img/eventpics/disco night (30 x 36 in).png",
-    registerUrl: "https://www.google.com",
+    registerUrl: "https://youtu.be/dQw4w9WgXcQ",
     title: "Disco Night",
     description:
       "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
     startDate: "2 Feb",
     rules: [],
     regdate: "26 Jan",
-    organizers1 : "john doe",
-    organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
-    organizers2Photo : "img/cultpics/avatar.png" 
-  },
+  }
 ];
