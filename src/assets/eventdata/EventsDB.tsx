@@ -5,7 +5,7 @@ export const EventsDB = [
     registerUrl: "https://www.google.com",
     title: "Art Competition",
     description:
-      "Nrityakala, an immersive dance celebration,invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "🎨 Welcome to the Genesis Art Club's Inter-Institute Art Competition! - 𝐂𝐡𝐢𝐭𝐫𝐚𝐤𝐚𝐥𝐚 🖌 Unleash your creativity as you bring the given themes to life on canvas. 🌟 Join fellow artists in this vibrant celebration of art, where your masterpiece could be the highlight of the event! 🏆 Let your imagination run wild and paint your way to artistic glory in our institute's informal art contest. Get ready for a brush with brilliance! 🌈",
     startDate: "26 Jan",
     endDate: "2 Feb",
     rules: [
@@ -166,8 +166,8 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/yNa96CtVjTLCy8mY6",
     title: "Confero : Debate Competition",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
-    startDate: "26 Jan",
+      "This event is structured to be held in 2 rounds, in each round every team will be assigned topic(s) and motions to debate on. In 1st round each team will be given only one motion, either for or against but in round 2 each team will be given both motions one by one on different topics .There will be predefined judging criteria on the basis of which final winnerswill be chosen.",
+    startDate: "26 Jan", 
     endDate: "27 Jan",
     rules: [
         "Rule 1: It will be a two-round debate competition.",
@@ -235,7 +235,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/7PvWLmomBB5LFVdA7",
     title: "Alter Ego - Group Discussion",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "It will be a single round competition. There will be three individuals in each clash. Each individual will be given a personality/role and he will have to defend that personality from rival’s allegations and attack them with his allegations. Each clash will be of 15 minutes and each individual will get 5 minutes to put his points.",
     startDate: "30 Jan",
     rules: [
         "Rule 1: Religious and anti-social comments are strictly discouraged.",
