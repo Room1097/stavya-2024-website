@@ -40,7 +40,7 @@ export const EventsDB = [
     registerUrl: "https://www.google.com",
     title: "What If (Group Skit)",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "🌟 Get ready for a night of theatrical magic with Eloquence Drama Club! 🎭✨Join us in an exciting role reversal challenge where teams of three perform as characters opposite to their real selves. 🕺💃👥🏆 #EloquenceDramaNight 🌟🎭",
     startDate: "27 Jan",
     endDate: "31 Jan",
     rules: [
@@ -60,7 +60,7 @@ export const EventsDB = [
     registerUrl: "https://www.google.com",
     title: "Bollywood Quiz",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Dive into the glitz and glamour of Bollywood at our Quiz Event! Test your filmy knowledge and dance your way to fabulous prizes join us for a fun and entertaining quiz ! 🌟💃 #BollywoodQuizEvent 🍿🎉",
     startDate: "27 Jan",
     endDate: "28 Jan",
     rules: [
@@ -83,7 +83,7 @@ export const EventsDB = [
     registerUrl: "https://www.google.com",
     title: "Nrityakala",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Step into the mesmerizing world of Bollywood at our Nrityakala dance event! Experience the allure of vibrant dance performances, immerse yourself in the enchanting choreography, and sway to the rhythm of a night filled with dazzling moves. Join us for an evening of captivating dance, unforgettable moments, and the sheer joy of movement! 💃✨ #NrityakalaDanceEvent 🎉",
     startDate: "28 Jan",
     rules: [
       "Rule 1: Eachparticipant or group is allotted a maximum performance time of 3 minutes.",
@@ -149,7 +149,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/CgGaWP9d7r6o349UA",
     title: "Shashwat Mythology Quiz",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Shashwat delivered an engaging experience, challenging participants with mythology-based questions. The clear marking scheme and team-based format added structure, while the pen-and-paper Round 1 allowed for thoughtful responses. Round 2's diverse segments intensified the competition, ultimately crowning the team with the highest points as the deserving winner.",
     startDate: "27 Jan",
     endDate: "29 Jan",
     rules: [
@@ -182,7 +182,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/e1fhE9wMtq3T1AwW9",
     title: "Avlekha : Hindi Poetry Writing Competition",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Avlekha invites participants to immerse themselves in the art of Hindi poetry in this inter-institute online event. Craft verses on themes revealed during the competition, showcasing your poetic prowess. Join us for an enriching experience where creativity and expression converge in the world of Hindi poetry, vying for recognition and excellence.",
     startDate: "26 Jan",
     endDate: "2 Feb",
     rules: [
@@ -200,7 +200,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/XVQ341hYTceSCr8YA",
     title: "Inkit : English Poetry Writing Competition",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Join 'Inkit,' the inter-institute online English poetry event, where participants showcase their poetic prowess. Express your creativity by crafting poems on themes unveiled during the event. A platform for literary excellence awaits, as wordsmiths compete to weave their verses and claim poetic glory.",
     startDate: "26 Jan",
     endDate: "2 Feb",
     rules: [
@@ -251,7 +251,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/PKhc9gq1zSgPWagR7",
     title: "Shabd Sangam Poetry Recitation",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Poets and Shayars are invited to \"Shabdsangam,\" a poetic extravaganza where teams of 3 showcase their best works. Participants engage in Shayari and Poem rounds, with a unique twist—teams must craft verses on given words. Teams must come prepared with their best poem, adding an extra layer of competition and creativity to this celebration of literary prowess.",
     startDate: "29 Jan",
     rules: [
         "Rule 1: This event will be conducted in Offline mode.",
