@@ -11,8 +11,8 @@ export const CultDB = [
       "name": "Omni Manwani",
       "image": "public/img/cultpics/Omni.jpg",
       "team" : "Cultural Committee",
-      "linkedin": "https://www.linkedin.com",
-      "insta": "https://www.instagram.com"
+      "insta": "https://www.instagram.com/__omni._",
+      "linkedin": "https://www.linkedin.com/in/omni-manwani"
     },
     {
       "name": "Diya Bhati",
@@ -26,7 +26,7 @@ export const CultDB = [
       "image": "public/img/cultpics/Shantanu.jpg",
       "team" : "Cultural Committee",
       "linkedin": "https://www.linkedin.com",
-      "insta": "https://www.instagram.com"
+      "insta": "https://www.instagram.com/kr_.shantanu._?igsh=MWZqbHZlZmJvdTg1bA=="
     },
     {
       "name": "Bhargav Gugulothu",

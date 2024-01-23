@@ -18,6 +18,17 @@ const Landing: React.FC = () => {
   useEffect(() => {
     const cards = Array.from(tlRef.current?.children || []);
 
+    gsap.fromTo('.text-box-item', {
+      opacity: 0,
+      y: -50,
+    }, {
+      delay: 0.5,
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      stagger: 0.5, 
+    }); 
+    
     if (window.innerWidth > 768) {
       gsap.fromTo(
         cards,
@@ -86,19 +97,19 @@ const Landing: React.FC = () => {
 
         </div>
         <div className="flex flex-col justify-center items-center lg:pt-[5vh] pt-[8vh] lg:gap-[0px] gap-[10px] text-box-landing">
-          <div className="uppercase font-Undev flex gap-[0px] ">
+          <div className="uppercase font-Undev flex gap-[0px] text-box-item">
             <span className="lg:text-[10rem] text-5xl ">stavya</span>
             <span className="lg:text-[10rem] text-5xl ">2024</span>
           </div>
-          <div className="uppercase lg:text-4xl font-NetHouse flex gap-[20px]">
+          <div className="uppercase lg:text-4xl font-NetHouse flex gap-[20px] text-box-item">
             <span className="lg:text-5xl text-xl">Retro </span>
             <span className="lg:text-5xl text-xl">Rythms</span>
             <span className="lg:text-5xl text-xl">Revisited</span>
           </div>
           <div>
-            <h3 className="uppercase flex gap-2">
+            <h3 className="uppercase flex gap-2 text-box-item">
               <CalendarDays />
-              26th January | Event garden
+              26th January | Event Ground
               <MapPin />
             </h3>
           </div>
