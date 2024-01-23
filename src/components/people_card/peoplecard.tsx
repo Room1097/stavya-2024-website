@@ -2,7 +2,7 @@ import React from 'react';
 import './person.css';
 import { Separator } from '../ui/separator';
 import { Button } from '../ui/button';
-import { Instagram, Linkedin, LinkedinIcon } from 'lucide-react';
+import { Mail, Linkedin, LinkedinIcon } from 'lucide-react';
 
 interface PeopleCardProps {
   image: string;
@@ -31,8 +31,8 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ image, name, team, linkedin,ins
         <h3>{team}</h3>
         <div className='flex'>
         <h3 className=''>
-          <Button onClick={handleInstaClick} variant="link"><Instagram className="lg:w-4 lg:h-4 lg:mr-2 p-0 mx-2"/>
-        Instagram
+          <Button onClick={handleInstaClick} variant="link"><Mail className="lg:w-4 lg:h-4 lg:mr-2 p-0 mx-2"/>
+        Email
         </Button>
         </h3>
         <h3><Button onClick={handleLinkedInClick} variant="link"><LinkedinIcon className='lg:w-4 lg:h-4 lg:mr-2 p-0 mx-2'/>LinkedIn</Button></h3>
