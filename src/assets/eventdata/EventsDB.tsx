@@ -36,7 +36,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/What If (30 x 36 in).png",
     registerUrl: "https://www.google.com",
     title: "What If (Group Skit)",
     description:
@@ -56,7 +56,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/Bollywood Quiz (30 x 36 in).png",
     registerUrl: "https://www.google.com",
     title: "Bollywood Quiz",
     description:
@@ -79,7 +79,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/NRITYAKALA (30 x 36 in).png",
     registerUrl: "https://www.google.com",
     title: "Nrityakala",
     description:
@@ -93,7 +93,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/Photography Workshop (30 x 36 in).png",
     registerUrl: "https://www.google.com",
     title: "Photography contest",
     description:
@@ -123,7 +123,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/Copy of ANTAKSHARI (30 x 36 in).png",
     registerUrl: "https://www.google.com",
     title: "Antakshari Music Battle",
     description:
@@ -145,7 +145,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/Copy of SHASHWAT (30 x 36 in).png",
     registerUrl: "https://forms.gle/CgGaWP9d7r6o349UA",
     title: "Shashwat Mythology Quiz",
     description:
@@ -162,7 +162,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/confero (30 x 36 in).png",
     registerUrl: "https://forms.gle/yNa96CtVjTLCy8mY6",
     title: "Confero : Debate Competition",
     description:
@@ -214,7 +214,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/OPEN MIC (30 x 36 in).png",
     registerUrl: "https://forms.gle/AnzDwvKGoGWSQCTeA",
     title: "Open Mic",
     description:
@@ -231,7 +231,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/ALTER EGO (30 x 36 in).png",
     registerUrl: "https://forms.gle/7PvWLmomBB5LFVdA7",
     title: "Alter Ego - Group Discussion",
     description:
@@ -264,7 +264,7 @@ export const EventsDB = [
     regdate: "26 Jan",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "public/img/eventpics/disco night (30 x 36 in).png",
     registerUrl: "https://www.google.com",
     title: "Disco Night",
     description:

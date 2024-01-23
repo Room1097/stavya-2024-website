@@ -90,6 +90,10 @@ const Landing: React.FC = () => {
   }, []);
 
 
+  const newLocal = <h3 className="uppercase flex gap-2 text-box-item">
+      Event Ground
+    <MapPin />
+  </h3>;
   return (
     <div>
       <div className="main-image lg:h-[100vh] h-[65vh] home-container text-white">
@@ -107,11 +111,7 @@ const Landing: React.FC = () => {
             <span className="lg:text-5xl text-xl">Revisited</span>
           </div>
           <div>
-            <h3 className="uppercase flex gap-2 text-box-item">
-              <CalendarDays />
-              26th January | Event Ground
-              <MapPin />
-            </h3>
+            {newLocal}
           </div>
         </div>
       </div>
