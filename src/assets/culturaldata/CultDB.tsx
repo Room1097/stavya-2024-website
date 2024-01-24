@@ -1,8 +1,8 @@
 
 export const CultDB = [
     {
-      "name": "Suryansh Singh Raghuvanshi",
-      "image": "img/cultpics/avatar.png",
+      "name": "Suryansh Singh Raghuvansh",
+      "image": "img/cultpics/Suryansh.png",
       "team" : "Cultural Committee",
       "linkedin": "https://www.linkedin.com/in/suryanshsr17",
       "insta": "202211093@diu.iiitvadodara.ac.in"
@@ -16,7 +16,7 @@ export const CultDB = [
     },
     {
       "name": "Diya Bhati",
-      "image": "img/cultpics/avatar.png",
+      "image": "img/cultpics/Diya.jpg",
       "team" : "Cultural Committee",
       "linkedin": "https://www.linkedin.com/in/diya-bhati-7b246127a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "insta": "202211021@diu.iiitvadodara.ac.in"
@@ -30,7 +30,7 @@ export const CultDB = [
     },
     {
       "name": "Bhargav Gugulothu",
-      "image": "img/cultpics/avatar.png",
+      "image": "img/cultpics/Bhargav.jpg",
       "team" : "Cultural Committee",
       "linkedin": "https://www.linkedin.com",
       "insta": "202211012@diu.iiitvadodara.ac.in"
