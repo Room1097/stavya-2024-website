@@ -1,6 +1,6 @@
 
 import React, { useRef, useEffect, useState } from "react";
-import { CalendarDays, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import TimeLineCard from "../timeline/TimelineCard";
@@ -13,7 +13,7 @@ const days = [1, 2, 3, 4, 5, 6, 7, 8];
 const Landing: React.FC = () => {
   const tlRef = useRef<HTMLDivElement>(null);
 
-  const [render, isRender] = useState(false);
+
 
   useEffect(() => {
     const cards = Array.from(tlRef.current?.children || []);
@@ -119,7 +119,7 @@ const Landing: React.FC = () => {
       <div className="part-2 pb-10 bg-amber-600 ">
         <div className="flex flex-col lg:gap-[20px] justify-center items-center pt-[6vh]">
           <h1 className="lg:text-3xl uppercase font-bold">about the event</h1>
-          <p className="lg:w-[40vw] w-[60vw] text-center pb-10 lg:pb-2">
+          <p className="lg:w-[40vw] w-[60vw] text-justify lg:text-center pb-10 lg:pb-2">
           Stavya, the annual literature and cultural fest at IIITV ICD, encapsulates the dynamic spirit of student creativity. A fusion of artistic expression and intellectual pursuits, the event features diverse cultural performances, engaging literary activities, and captivating art exhibitions. Stavya isn't just a celebration; it's a platform for students to explore their talents through competitions, workshops, and outreach initiatives. From traditional dances to contemporary debates, the fest embraces inclusivity, connecting with the broader community. Stavya not only provides a break from the technical routine but also fosters a sense of community, leaving a lasting impact on the cultural fabric of IIITV ICD.
           </p>
         </div>

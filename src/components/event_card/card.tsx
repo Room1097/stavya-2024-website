@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import "./card.css"; // Import the CSS file for styling
 import { Button } from "@/components/ui/button";
@@ -83,7 +83,7 @@ const EventCard: React.FC<EventCardProps> = ({
     return (
       <ul className="list-disc ml-6">
         <ScrollArea className="lg:w-full w-[80vw] rounded-md border border-slate-700 lg:h-96 h-56 lg:text-xl p-4 ">
-          {rules.map((rule, index) => (
+          {rules.map((rule) => (
             <div className="p-3">
               {rule}
               <Separator className="mt-4" />
@@ -124,7 +124,7 @@ const EventCard: React.FC<EventCardProps> = ({
                 More
               </Button>
             </DialogTrigger>
-            <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1 w-max">
+            <DialogContent className="transition-transform transform shadow-accent1 lg:shadow-none lg:hover:scale-105 lg:hover:shadow-lg lg:hover:shadow-accent1 w-max">
               {handleOrganizers()}
               <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
                 <div className=" font-bold lg:text-xl text-sm pb-2"> Rules</div>

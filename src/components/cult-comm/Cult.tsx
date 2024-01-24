@@ -1,5 +1,4 @@
-import React from 'react';
-import Line from '../lineBreak/Line';
+
 import PeopleCard from '../people_card/peoplecard';
 import { CultDB } from '@/assets/culturaldata/CultDB';
 import { Separator } from '../ui/separator';

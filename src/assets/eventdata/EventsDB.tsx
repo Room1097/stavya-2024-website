@@ -1,6 +1,6 @@
 export const EventsDB = [
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "img/eventpics/chitrakala.png",
     registerUrl: "https://forms.gle/YjfMvzaz596CGFLZ7",
     title: "Art Competition",
     description:

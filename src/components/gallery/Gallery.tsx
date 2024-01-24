@@ -1,6 +1,5 @@
 // Gallery.tsx
 
-import React from "react";
 import { Separator } from "../ui/separator";
 import SwiperComponent from "./galleryComponent";
 import Footer from "../footer/Footer";
@@ -8,7 +7,7 @@ import Footer from "../footer/Footer";
 const Gallery = () => {
   // Example JSON file with image sources
   const swiperData1 = [
-    "img/gallery/1.JPG",
+    "img/gallery/1.jpg",
     "img/gallery/2.JPG",
     "img/gallery/3.JPG",
     "img/gallery/4.JPG",
