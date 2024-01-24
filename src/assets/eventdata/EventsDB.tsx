@@ -4,7 +4,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/YjfMvzaz596CGFLZ7",
     title: "Art Competition",
     description:
-      "🎨 Welcome to the Genesis Art Club's Inter-Institute Art Competition! - 𝐂𝐡𝐢𝐭𝐫𝐚𝐤𝐚𝐥𝐚 🖌 Unleash your creativity as you bring the given themes to life on canvas. 🌟 Join fellow artists in this vibrant celebration of art, where your masterpiece could be the highlight of the event! 🏆 Let your imagination run wild and paint your way to artistic glory in our institute's informal art contest. Get ready for a brush with brilliance! 🌈",
+      "Welcome to the Genesis Art Club's Inter-Institute Art Competition! - 𝐂𝐡𝐢𝐭𝐫𝐚𝐤𝐚𝐥𝐚 Unleash your creativity as you bring the given themes to life on canvas. Join fellow artists in this vibrant celebration of art, where your masterpiece could be the highlight of the event! Let your imagination run wild and paint your way to artistic glory in our institute's informal art contest. Get ready for a brush with brilliance!",
     startDate: "26 Jan",
     endDate: "2 Feb",
     rules: [
@@ -16,9 +16,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1: "Nimbalkar Siddarth",
-    organizers1Photo: "img/cultpics/avatar.png",
+    organizers1Photo: "img/clubpics/Siddhart.jpg",
     organizers2: "Bhargav Gugulothu",
-    organizers2Photo: "img/cultpics/avatar.png",
+    organizers2Photo: "img/cultpics/Bhargav.jpg",
   },
   {
     img: "img/eventpics/digitoons.png",
@@ -38,16 +38,16 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1: "Nimbalkar Siddarth",
-    organizers1Photo: "img/cultpics/avatar.png",
+    organizers1Photo: "img/clubpics/Siddhart.jpg",
     organizers2: "Bhargav Gugulothu",
-    organizers2Photo: "img/cultpics/avatar.png",
+    organizers2Photo: "img/cultpics/Bhargav.jpg",
   },
   {
     img: "img/eventpics/What If (30 x 36 in).png",
     registerUrl: "https://forms.gle/wPSJiRtoXosSmpbu7",
     title: "What If (Group Skit)",
     description:
-      "🌟 Get ready for a night of theatrical magic with Eloquence Drama Club! 🎭✨Join us in an exciting role reversal challenge where teams of three perform as characters opposite to their real selves. 🕺💃👥🏆 #EloquenceDramaNight 🌟🎭",
+      "Get ready for a night of theatrical magic with Eloquence Drama Club! Join us in an exciting role reversal challenge where teams of three perform as characters opposite to their real selves.",
     startDate: "27 Jan",
     endDate: "31 Jan",
     rules: [
@@ -61,16 +61,16 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Ajay Deep",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/Ajay.jpg", 
     organizers2 : "Suryansh Singh Raghuvansh", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/cultpics/Suryansh.png" 
   },
   {
     img: "img/eventpics/Bollywood Quiz (30 x 36 in).png",
     registerUrl: "https://forms.gle/nJFkVkSVPFWYbi8U7",
     title: "Bollywood Quiz",
     description:
-      "Dive into the glitz and glamour of Bollywood at our Quiz Event! Test your filmy knowledge and dance your way to fabulous prizes join us for a fun and entertaining quiz ! 🌟💃 #BollywoodQuizEvent 🍿🎉",
+      "Dive into the glitz and glamour of Bollywood at our Quiz Event! Test your filmy knowledge and dance your way to fabulous prizes join us for a fun and entertaining quiz !",
     startDate: "27 Jan",
     endDate: "28 Jan",
     rules: [
@@ -88,16 +88,16 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Ajay Deep",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/Ajay.jpg", 
     organizers2 : "Suryansh Singh Raghuvansh", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/cultpics/Suryansh.png"  
   },
   {
     img: "img/eventpics/NRITYAKALA (30 x 36 in).png",
     registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLSejGb4G2mGQCemFLsq3Erijy0y-J2uCNHw714OVXn4TRcK-qw/viewform?usp=sf_link",
     title: "Nrityakala",
     description:
-      "Step into the mesmerizing world of Bollywood at our Nrityakala dance event! Experience the allure of vibrant dance performances, immerse yourself in the enchanting choreography, and sway to the rhythm of a night filled with dazzling moves. Join us for an evening of captivating dance, unforgettable moments, and the sheer joy of movement! 💃✨ #NrityakalaDanceEvent 🎉",
+      "Step into the mesmerizing world of Bollywood at our Nrityakala dance event! Experience the allure of vibrant dance performances, immerse yourself in the enchanting choreography, and sway to the rhythm of a night filled with dazzling moves. Join us for an evening of captivating dance, unforgettable moments, and the sheer joy of movement!",
     startDate: "28 Jan",
     rules: [
       "Rule 1: Each participant or group is allotted a maximum performance time of 3 minutes.",
@@ -106,9 +106,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Sumedha Baghmar",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/Sumedha.jpg", 
     organizers2 : "Diya Bhati", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/cultpics/Diya.jpg" 
   },
   {
     img: "img/eventpics/Photography Workshop (30 x 36 in).png",
@@ -140,9 +140,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Kamal Meena",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/Radhe.jpg", 
     organizers2 : "Kumar Shantanu", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/cultpics/Shantanu.jpg" 
   },
   {
     img: "img/eventpics/Copy of ANTAKSHARI (30 x 36 in).png",
@@ -166,9 +166,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Naveen",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/Naveen.png", 
     organizers2 : "Omni Manvani", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/cultpics/Omni.jpg" 
   },
   {
     img: "img/eventpics/Manch Mantra (30 x 36 in).png",
@@ -189,9 +189,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Kumar Shantanu",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/cultpics/Shantanu.jpg", 
     organizers2 : "Suryansh Singh Raghuvansh", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/cultpics/Suryansh.png" 
   },
   {
     img: "img/eventpics/Copy of SHASHWAT (30 x 36 in).png",
@@ -210,9 +210,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Harshit Soni",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/HarshitSoni.jpg", 
     organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
   
   },
   {
@@ -231,9 +231,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Rituraj Kumar",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/clubpics/Rituraj.jpg", 
     organizers2 : "Anay Kumar Pandey", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/litpics/AnayKumarPandey.png" 
   },
   {
     img: "img/eventpics/avlekha.png",
@@ -253,9 +253,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Srijan sharma",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/litpics/Srijan.jpg", 
     organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
   },
   {
     img: "img/eventpics/inkint.png",
@@ -275,9 +275,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Srijan sharma",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/litpics/Srijan.jpg", 
     organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
   
   },
   {
@@ -296,10 +296,7 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
-    organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+   
   },
   {
     img: "img/eventpics/ALTER EGO (30 x 36 in).png",
@@ -335,9 +332,9 @@ export const EventsDB = [
     ],
     regdate: "26 Jan",
     organizers1 : "Srijan sharma",
-    organizers1Photo : "img/cultpics/avatar.png", 
+    organizers1Photo : "img/litpics/Srijan.jpg", 
     organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/cultpics/avatar.png" 
+    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
   
   },
   {
