@@ -1,6 +1,6 @@
 import React from "react";
 import TimelineElem from "./TimelineElement";
-import { Separator } from "../ui/separator";
+// import { Separator } from "../ui/separator";
 import { Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8 } from "./TimelineDB";
 
 interface TimeLineCardProps {

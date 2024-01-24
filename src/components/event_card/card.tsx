@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Separator } from "@/components/ui/separator";
 import "./card.css"; // Import the CSS file for styling
 import { Button } from "@/components/ui/button";
@@ -38,7 +38,7 @@ const EventCard: React.FC<EventCardProps> = ({
   organizers2,
   organizers2Photo,
 }) => {
-  const [expanded, setExpanded] = useState(true);
+  // const [expanded, setExpanded] = useState(true);
 
   const handleRegisterClick = () => {
     window.location.href = registerUrl;
@@ -97,7 +97,7 @@ const EventCard: React.FC<EventCardProps> = ({
   return (
     <article
       className={`event-card flex lg:flex-row gap-5 mb-20 lg:p-8 border-accent1 border-2 rounded-lg lg:w-[90%] transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent2 ${
-        expanded ? "lg:h-auto" : "lg:h-[30rem]"
+         "lg:h-auto" 
       } event__card`}
     >
       <div className="image-container">

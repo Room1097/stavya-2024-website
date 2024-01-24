@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { Separator } from '../ui/separator';
 import Social from '../social/Social';
-import { Copyright } from 'lucide-react';
+
 
 const Footer = () => {
   return (
