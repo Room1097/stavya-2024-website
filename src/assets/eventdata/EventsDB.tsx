@@ -115,7 +115,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/9AgPZGJPp2j1xPNy9",
     title: "Photography contest",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Unlock creativity at Fest Pixellence 2.0! Capture the essence of diverse themes through your lens. Join this photography event, where images speak volumes, and visual storytelling takes center stage. Embrace the art of pixels!",
     startDate: "26 Jan",
     endDate: "2 Feb",
     rules: [
@@ -149,7 +149,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/HoMyDGufv49zJR829",
     title: "Antakshari Music Battle",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Antakshari Extravaganza: Immerse yourself in the rhythmic symphony of our fest! Join the lively musical showdown, where participants connect tunes seamlessly, creating an atmosphere of joy and camaraderie. An unmissable fusion of fun and music awaits you at this vibrant event!",
     startDate: "26 Jan",
     endDate: "30 Jan",
     rules: [
@@ -342,7 +342,7 @@ export const EventsDB = [
     registerUrl: "https://youtu.be/dQw4w9WgXcQ",
     title: "Disco Night",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Cap off the enchanting Stavya- the Cultural Literature Fest with a dazzling Disco Night! Celebrate the fusion of literature and groove as we dance into the night, concluding this literary journey with rhythm, joy, and unforgettable memories.",
     startDate: "2 Feb",
     rules: [],
     regdate: "26 Jan",
