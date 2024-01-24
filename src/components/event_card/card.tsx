@@ -54,11 +54,11 @@ const EventCard: React.FC<EventCardProps> = ({
     if (organizers1) {
       return (
         <>
-        <div className=" font-bold lg:text-xl text-sm"> Organizers</div>
-              <div className="w-full flex lg:flex-row flex-col gap-5">
+        <div className="font-bold lg:text-xl text-sm"> Organizers</div>
+              <div className="lg:w-full w-[80vw] m-[auto] flex lg:flex-row flex-col gap-5">
                 <Card className="hover:shadow-lg hover:shadow-accent2">
-                  <CardContent className="flex items-center gap-x-3 p-3">
-                    <Avatar className="w-20 h-20">
+                  <CardContent className="flex items-center gap-x-3 p-3 ">
+                    <Avatar className="lg:w-20 lg:h-20">
                       <AvatarImage src={organizers1Photo} />
                     </Avatar>
                     <h1 className="lg:text-2xl">{organizers1}</h1>
@@ -66,7 +66,7 @@ const EventCard: React.FC<EventCardProps> = ({
                 </Card>
                 <Card className=" hover:shadow-lg hover:shadow-accent2">
                   <CardContent className="flex items-center gap-x-3 p-3">
-                    <Avatar className="w-20 h-20">
+                    <Avatar className="lg:w-20 lg:h-20">
                       <AvatarImage src={organizers2Photo} />
                     </Avatar>
                     <h1 className="lg:text-2xl">{organizers2}</h1>
@@ -82,7 +82,7 @@ const EventCard: React.FC<EventCardProps> = ({
   const renderRulesList = () => {
     return (
       <ul className="list-disc ml-6">
-        <ScrollArea className="rounded-md border border-slate-700 lg:h-96 h-56 text-xl p-4 ">
+        <ScrollArea className="lg:w-full w-[80vw] rounded-md border border-slate-700 lg:h-96 h-56 lg:text-xl p-4 ">
           {rules.map((rule, index) => (
             <div className="p-3">
               {rule}
@@ -120,7 +120,7 @@ const EventCard: React.FC<EventCardProps> = ({
 
           <Dialog>
             <DialogTrigger>
-              <Button variant="link" className="mt-5 text-xl px-0 ">
+              <Button variant="link" className="lg:mt-5 lg:text-xl lg:px-0 ">
                 More
               </Button>
             </DialogTrigger>
@@ -129,7 +129,7 @@ const EventCard: React.FC<EventCardProps> = ({
               <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
                 <div className=" font-bold lg:text-xl text-sm pb-2"> Rules</div>
                 <p>{renderRulesList()}</p>
-                <div className=" font-bold lg:text-xl text-sm mt-2">
+                <div className=" font-bold lg:text-xl text-sm lg:mt-2 mt-5">
                   {" "}
                   Registration date
                 </div>
