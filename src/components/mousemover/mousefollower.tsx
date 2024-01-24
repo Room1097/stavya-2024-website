@@ -25,7 +25,7 @@ const MouseFollower: React.FC = () => {
   }, []);
 
   return (
-    <div className="circle-cursor lg:block hidden" style={{ left: position.x, top: position.y }} />
+    <div className="circle-cursor bg-white rounded-full lg:block hidden" style={{ left: position.x, top: position.y }} />
   );
 };
 
