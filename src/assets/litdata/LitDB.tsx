@@ -16,21 +16,21 @@ export const LitDB = [
     },
     {
       "name": "Tanay Patel",
-      "image": "public/img/litpics/avatar.png",
+      "image": "public/img/litpics/Tanay.jpg",
       "team" : "Literature Committee",
       "linkedin": "https://www.linkedin.com/in/tanay-patel-335418259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "insta": "202211094@iiitvadodara.ac.in"
     },
     {
       "name": "Devrikh Jatav",
-      "image": "public/img/litpics/avatar.png",
+      "image": "public/img/litpics/DevrikhJatav.jpg",
       "team" : "Literature Committee",
       "linkedin": "https://www.linkedin.com/in/devrikh-jatav-6bb512256",
       "insta": "202211018@iiitvadodara.ac.in"
     },
     {
       "name": "Ved Prakash Meena",
-      "image": "public/img/litpics/avatar.png",
+      "image": "public/img/litpics/Ved.jpg",
       "team" : "Literature Committee",
       "linkedin": "https://www.linkedin.com/in/ved-prakash-meena?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "insta": "202211096@iiitvadodara.ac.in"
