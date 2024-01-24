@@ -73,7 +73,9 @@ module.exports = {
         NetHouse : ["Net"],
         Rialto : ["Rialto"],
         Undev : ["Undev"],
-        UndevBook : ["Undev-Book"]
+        UndevBook : ["Undev-Book"],
+        Reveler : ["Reveler"],
+        Casino : ["Casino"],
       },
       borderRadius: {
         lg: "var(--radius)",
