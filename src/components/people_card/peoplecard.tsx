@@ -2,7 +2,7 @@ import React from 'react';
 import './person.css';
 import { Separator } from '../ui/separator';
 import { Button } from '../ui/button';
-import { Mail, Linkedin, LinkedinIcon } from 'lucide-react';
+import { Mail, LinkedinIcon } from 'lucide-react';
 
 interface PeopleCardProps {
   image: string;
@@ -16,9 +16,9 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ image, name, team, linkedin,ins
   const handleLinkedInClick = () => {
     window.location.href = linkedin;
   };
-  const handleInstaClick = () => {
-    window.location.href = insta;
-  };
+  // const handleInstaClick = () => {
+  //   window.location = `mailto:${insta}`;
+  // };
   return (
     <div className="person-card-container">
       <div className='person-card slide__bottom person-card-slide'>
@@ -31,7 +31,7 @@ const PeopleCard: React.FC<PeopleCardProps> = ({ image, name, team, linkedin,ins
         <h3>{team}</h3>
         <div className='flex'>
         <h3 className=''>
-          <Button onClick={handleInstaClick} variant="link"><Mail className="lg:w-4 lg:h-4 lg:mr-2 p-0 mx-2"/>
+          <Button onClick={()=>window.location.href=`mailto:${insta}`} variant="link"><Mail className="lg:w-4 lg:h-4 lg:mr-2 p-0 mx-2"/>
         Email
         </Button>
         </h3>

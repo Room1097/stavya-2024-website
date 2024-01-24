@@ -175,20 +175,22 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/CgGaWP9d7r6o349UA",
     title: "Munch mantra",
     description:
-      "Shashwat delivered an engaging experience, challenging participants with mythology-based questions. The clear marking scheme and team-based format added structure, while the pen-and-paper Round 1 allowed for thoughtful responses. Round 2's diverse segments intensified the competition, ultimately crowning the team with the highest points as the deserving winner.",
+      "Dive into the cinematic enchantment at the Manch Mantra event in Stavya! Each team embarks on a thrilling journey as they receive a movie to revolutionize—transforming its script and have to act upon. Unleash your creativity, rewrite the script, and take center stage to perform the ultimate, personalized movie magic! ",
     startDate: "27 Jan",
     endDate: "29 Jan",
     rules: [
-      "Rule 1: It is a two-round offline event for the students of IIITV-ICD.",
-      "Rule 2: Participants will have to register as a team of two through the circulated Google form. (Only one person needs to fill out the form).",
-      "Rule 3: Rules for the respective rounds will be told before the commencement of that round.",
-      "Rule 4: Winners will be decided based on the score of the quiz.",
-      "Rule 5: If a participant’s action raises suspicion for the organizers, their candidature can be questioned. The organizers can take such decisions to ensure a fair competition.",
+      "Rule 1: Each team will receive a pre-selected movie name. Teams will have a time limit to recreate a scene or storyline from the movie through a live performance.",
+
+"Rule 2: Ensure the script and drama should not disrespect any culture/identity.",
+
+"Rule 3: By participating, the participant agrees that his/her work can be posted on Essence Club's & Eloquence Drama Club's Instagram handle.",
+
+"Rule 4: In case of any dispute concerning the team and the competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "john doe",
+    organizers1 : "Kumar Shantanu",
     organizers1Photo : "img/cultpics/avatar.png", 
-    organizers2 : "john doe", 
+    organizers2 : "Suryansh Singh Raghuvansh", 
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
