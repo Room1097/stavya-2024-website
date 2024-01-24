@@ -25,7 +25,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/4Bf1H61Ahhu7rS3Y9",
     title: "Digital Cartooning",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "Welcome to our electrifying online cartoon and comic-based painting event! - 𝐃𝐢𝐠𝐢𝐓𝐨𝐨𝐧𝐬🖌 Unleash your creativity using graphic design software, tablets, or any digital wizardry a0t your disposal. Dive into a world where talent and skill meets artistry as you craft original cartoons and dynamic comic strips. Join us for an inter-institute showdown of wit and imagination in this virtual art extravaganza! Let your artistic prowess shine and make this contest a canvas of laughter and innovation. Get ready to turn pixels into masterpieces!.",
     startDate: "26 Jan",
     endDate: "2 Feb",
     rules: [
@@ -285,7 +285,7 @@ export const EventsDB = [
     registerUrl: "https://forms.gle/AnzDwvKGoGWSQCTeA",
     title: "Open Mic",
     description:
-      "Nrityakala, an immersive dance celebration, invites you to experience the artistry of diverse movements, cultural narratives, and rhythmic expressions. Join the passionate dancers as they weave stories through the elegant choreography. And celebrating tradition and innovation in a captivating dance extravaganza.",
+      "A dynamic event where performers of all stripes showcase their talent in an intimate, unfiltered setting. From poetry and music to stand-up comedy, it's a platform where creativity takes the stage, fostering community and celebrating diverse expressions in a welcoming atmosphere.",
     startDate: "1 Feb",
     rules: [
       "Rule 1: It will be an open stage for all the students of IIITV-ICD.",
