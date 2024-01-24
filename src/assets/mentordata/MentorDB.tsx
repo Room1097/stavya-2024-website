@@ -8,13 +8,6 @@ export const MentorDB = [
       "insta": "202111040@diu.iiitvadodara.ac.in"
     },
     {
-      "name": "Jayesh Chak",
-      "image": "img/cultpics/avatar.png",
-      "team" : "Mentor",
-      "linkedin": "https://www.linkedin.com/in/jayesh-chak-24x7/",
-      "insta": "202111040@diu.iiitvadodara.ac.in"
-    },
-    {
       "name": "Gaurav Tripathi",
       "image": "img/cultpics/avatar.png",
       "team" : "Mentor",
@@ -43,6 +36,13 @@ export const MentorDB = [
       "insta": "202111082@diu.iiitvadodara.ac.in"
     },
     {
+      "name": "Devesh Sharma",
+      "image": "img/cultpics/avatar.png",
+      "team" : "Mentor",
+      "linkedin": "https://www.linkedin.com",
+      "insta": "202111024@diu.iiitvadodara.ac.in"
+    },
+    {
       "name": "Apurva Bajaj",
       "image": "img/cultpics/avatar.png",
       "team" : "Mentor",
@@ -68,7 +68,7 @@ export const MentorDB = [
       "image": "img/cultpics/avatar.png",
       "team" : "Mentor",
       "linkedin": "https://www.linkedin.com/in/aniruddhakajave",
-      "insta": "202111024@diu.iiitvadodara.ac.in"
+      "insta": "202111006@diu.iiitvadodara.ac.in"
     },
     {
       "name": "Ashutosh khatri",
