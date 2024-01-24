@@ -21,7 +21,7 @@ export const EventsDB = [
     organizers2Photo: "img/cultpics/avatar.png",
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "img/eventpics/digitoons.png",
     registerUrl: "https://forms.gle/4Bf1H61Ahhu7rS3Y9",
     title: "Digital Cartooning",
     description:
