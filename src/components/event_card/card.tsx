@@ -4,10 +4,10 @@ import "./card.css"; // Import the CSS file for styling
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "../ui/scroll-area";
 
-import { Card,CardContent } from "../ui/card";
-import { Avatar,AvatarImage } from "../ui/avatar";
+import { Card, CardContent } from "../ui/card";
+import { Avatar, AvatarImage } from "../ui/avatar";
 
-import { Dialog,DialogContent,DialogTrigger } from "../ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 
 interface EventCardProps {
   title: string;
@@ -16,8 +16,12 @@ interface EventCardProps {
   endDate?: string;
   registerUrl: string;
   description: string;
-  rules:string[];
-  regdate : string;
+  rules: string[];
+  regdate: string;
+  organizers1?: string;
+  organizers1Photo?: string;
+  organizers2?: string;
+  organizers2Photo?: string;
 }
 
 const EventCard: React.FC<EventCardProps> = ({
@@ -28,32 +32,64 @@ const EventCard: React.FC<EventCardProps> = ({
   registerUrl,
   description,
   rules,
-  regdate
+  regdate,
+  organizers1,
+  organizers1Photo,
+  organizers2,
+  organizers2Photo,
 }) => {
   const [expanded, setExpanded] = useState(true);
 
   const handleRegisterClick = () => {
     window.location.href = registerUrl;
   };
-  const handlDate = () =>{
+  const handlDate = () => {
     if (endDate) {
       return `${startDate} - ${endDate}`;
     } else {
       return `On ${startDate}`;
     }
-
-  }
+  };
+  const handleOrganizers = () => {
+    if (organizers1) {
+      return (
+        <>
+        <div className=" font-bold lg:text-xl text-sm"> Organizers</div>
+              <div className="w-full flex lg:flex-row flex-col gap-5">
+                <Card className="hover:shadow-lg hover:shadow-accent2">
+                  <CardContent className="flex items-center gap-x-3 p-3">
+                    <Avatar className="w-20 h-20">
+                      <AvatarImage src={organizers1Photo} />
+                    </Avatar>
+                    <h1 className="lg:text-2xl">{organizers1}</h1>
+                  </CardContent>
+                </Card>
+                <Card className=" hover:shadow-lg hover:shadow-accent2">
+                  <CardContent className="flex items-center gap-x-3 p-3">
+                    <Avatar className="w-20 h-20">
+                      <AvatarImage src={organizers2Photo} />
+                    </Avatar>
+                    <h1 className="lg:text-2xl">{organizers2}</h1>
+                  </CardContent>
+                </Card>
+              </div>
+        </>
+      )
+    } else {
+      return (<></>);
+    }
+  };
   const renderRulesList = () => {
     return (
-      
       <ul className="list-disc ml-6">
         <ScrollArea className="rounded-md border border-slate-700 lg:h-96 h-56 text-xl p-4 ">
-        {rules.map((rule, index) => (
-          <div className="p-3">{rule}
-          <Separator className="mt-4"/>
-          </div>
+          {rules.map((rule, index) => (
+            <div className="p-3">
+              {rule}
+              <Separator className="mt-4" />
+            </div>
           ))}
-      </ScrollArea>
+        </ScrollArea>
       </ul>
     );
   };
@@ -76,67 +112,41 @@ const EventCard: React.FC<EventCardProps> = ({
           <h1 className="event-title">{title}</h1>
         </header>
         <div className="event-details">
-          <Separator className=" bg-accent2"/>
-          <p className="event-dates lg:text-2xl mb-3">
-            {handlDate()}
-          </p>
+          <Separator className=" bg-accent2" />
+          <p className="event-dates lg:text-2xl mb-3">{handlDate()}</p>
           <p className="event-description text-justify lg:text-lg">
             {description}
           </p>
 
-          <Dialog >
-          
-              <DialogTrigger>
-                <Button variant="link" className="mt-5 text-xl px-0 ">
-                  More
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1 w-max">
-                <div className=" font-bold lg:text-xl text-sm"> Organizers</div>
-              <div className="w-full flex lg:flex-row flex-col gap-5">
-                <Card className="hover:shadow-lg hover:shadow-accent2">
-                  <CardContent className="flex items-center gap-x-3 p-3">
-
-                  <Avatar className="w-20 h-20">
-                    <AvatarImage src="https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg"/>                    
-                  </Avatar>
-                  <h1 className="lg:text-2xl">john doe</h1>
-                  </CardContent>
-                </Card>
-                <Card className=" hover:shadow-lg hover:shadow-accent2">
-                  <CardContent className="flex items-center gap-x-3 p-3">
-
-                  <Avatar className="w-20 h-20">
-                    <AvatarImage  src="https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg"/>                    
-                  </Avatar>
-                  <h1 className="lg:text-2xl">john doe</h1>
-                  </CardContent>
-                </Card>
-              </div>
-                <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
-                  <div className=" font-bold lg:text-xl text-sm"> Rules</div>
-                  <p>
-                    {renderRulesList()}
-                  </p>
-                  <div className=" font-bold lg:text-xl text-sm"> Registration date</div>
-                  <p>
-                    {regdate}
-                  </p>
+          <Dialog>
+            <DialogTrigger>
+              <Button variant="link" className="mt-5 text-xl px-0 ">
+                More
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-accent1 w-max">
+              {handleOrganizers()}
+              <div className="expanded-content mt-4 lg:text-lg text-sm text-justify">
+                <div className=" font-bold lg:text-xl text-sm pb-2"> Rules</div>
+                <p>{renderRulesList()}</p>
+                <div className=" font-bold lg:text-xl text-sm mt-2">
+                  {" "}
+                  Registration date
                 </div>
-              </DialogContent>
-       
+                <p>{regdate}</p>
+              </div>
+            </DialogContent>
           </Dialog>
 
-          
-            <div className="flex flex-row justify-end mt-[2vh] mb-[1vh]">
-              <Button
-                className="register-button lg:px-10 lg:py-7 lg:text-xl hover:shadow-md hover:shadow-accent2"
-                onClick={handleRegisterClick}
-                variant="ghost1"              >
-                Register
-              </Button>
-            </div>
-          
+          <div className="flex flex-row justify-end mt-[2vh] mb-[1vh]">
+            <Button
+              className="register-button lg:px-10 lg:py-7 lg:text-xl hover:shadow-md hover:shadow-accent2"
+              onClick={handleRegisterClick}
+              variant="ghost1"
+            >
+              Register
+            </Button>
+          </div>
         </div>
       </div>
     </article>

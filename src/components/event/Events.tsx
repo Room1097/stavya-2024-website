@@ -16,6 +16,11 @@ interface EventData {
   description: string;
   rules: string[];
   regdate: string;
+  organizers1 ?: string; 
+  organizers1Photo ?: string; 
+  organizers2 ?: string; 
+  organizers2Photo ?: string; 
+ 
 }
 
 interface EventProps {
