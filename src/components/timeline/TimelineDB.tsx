@@ -92,6 +92,11 @@ export const Day6 = [
         startTime: "02:00 PM",
         endTime: "04:00 PM",
       },
+      {
+        event: "Munchmantra",
+        startTime: "08:00 PM",
+        endTime: "11:00 PM",
+      },
     ];
 export const Day7 = [
       {

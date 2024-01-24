@@ -40,6 +40,16 @@ body {
   src: url(assets/fonts/UndevelopedBook.ttf);
 }
 
+@font-face {
+  font-family: "Reveler";
+  src: url(assets/fonts/Reveler.ttf);
+}
+
+@font-face {
+  font-family: "Casino";
+  src: url(assets/fonts/CasinoFlat.ttf);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
