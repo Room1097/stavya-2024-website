@@ -49,7 +49,7 @@ const SwiperComponent: React.FC<SwiperComponentProps> = ({
     >
       {images.map((src, index) => (
         <SwiperSlide key={index}>
-          <img src={src} alt="" className="aspect-video"/>
+          <img src={src} alt="" className="aspect-video object-cover"/>
         </SwiperSlide>
       ))}
     </SwiperReact>
