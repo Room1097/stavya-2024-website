@@ -236,7 +236,7 @@ export const EventsDB = [
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "img/eventpics/avlekha.png",
     registerUrl: "https://forms.gle/e1fhE9wMtq3T1AwW9",
     title: "Avlekha : Hindi Poetry Writing Competition",
     description:
@@ -258,7 +258,7 @@ export const EventsDB = [
     organizers2Photo : "img/cultpics/avatar.png" 
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "img/eventpics/inkint.png",
     registerUrl: "https://forms.gle/XVQ341hYTceSCr8YA",
     title: "Inkit : English Poetry Writing Competition",
     description:
@@ -319,7 +319,7 @@ export const EventsDB = [
     
   },
   {
-    img: "/src/assets/img/eventpics/SHASHWAT.png",
+    img: "img/eventpics/Copy of Bollywood Quiz (30 x 36 in).png",
     registerUrl: "https://forms.gle/PKhc9gq1zSgPWagR7",
     title: "Shabd Sangam Poetry Recitation",
     description:
@@ -341,7 +341,7 @@ export const EventsDB = [
   
   },
   {
-    img: "img/eventpics/disco night (30 x 36 in).png",
+    img: "img/eventpics/disco night (30 x 36 in) (1).png",
     registerUrl: "https://youtu.be/dQw4w9WgXcQ",
     title: "Disco Night",
     description:
