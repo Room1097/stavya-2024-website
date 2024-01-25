@@ -22,6 +22,7 @@
     "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "lucide-react": "^0.309.0",
+    "radix-ui": "^1.0.1",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",

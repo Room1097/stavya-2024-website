@@ -21,11 +21,6 @@ body {
 }
 
 @font-face {
-  font-family: "Movie";
-  src: url(assets/fonts/Movie\ Poster\ Personal\ Use.ttf);
-}
-
-@font-face {
   font-family: "Net";
   src: url(assets/fonts/FontsFree-Net-House-of-cards-W03-Bold.ttf);
 }
