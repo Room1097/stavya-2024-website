@@ -1,6 +1,6 @@
 import React from 'react';
 import { Separator } from '@/components/ui/separator';
-import { Mail, Instagram, Ghost } from 'lucide-react';
+import { Mail, Instagram } from 'lucide-react';
 import { Button } from '../ui/button';
 
 interface SocialProps {
