@@ -1,6 +1,7 @@
 import React from 'react';
 import { Separator } from '@/components/ui/separator';
 import { Mail, Instagram } from 'lucide-react';
+import { Button } from '../ui/button';
 
 interface SocialProps {
   committeeName: string;
@@ -16,7 +17,7 @@ const Social: React.FC<SocialProps> = ({ committeeName, gmailLink, instagramLink
         <Separator className='bg-zinc-700 mb-4'/>
         <div className='links mt-2 flex flex-col lg:gap-y-4 gap-y-2'>
           <div className='flex gap-4'>
-            <Mail /> <a href={gmailLink} className='lg:text-xl duration-300 text-sm' target='_blank' rel='noopener noreferrer'>Email Us</a>
+            <Mail /> <Button onClick={()=>{window.location.href=`mailto:${gmailLink}`}} className='lg:text-xl duration-300 text-sm'  rel='noopener noreferrer'>Email Us</Button>
           </div>
           <div className='flex gap-4'>
             <Instagram /> <a href={instagramLink} className='lg:text-xl text-sm duration-300' target='_blank' rel='noopener noreferrer'>Instagram</a>

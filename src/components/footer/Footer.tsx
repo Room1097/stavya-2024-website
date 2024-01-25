@@ -13,8 +13,8 @@ const Footer = () => {
             {/* Use flex-row on smaller screens */}
             <Social
               committeeName='Literature'
-              gmailLink='https://www.linkedin.com/company/literature-committee'
-              instagramLink='https://www.instagram.com/literature_committee/'
+              gmailLink='literature@diu.iiitvadodara.ac.in'
+              instagramLink='https://www.instagram.com/literature_iiitvicd/'
       
             />
           </div>
@@ -22,8 +22,8 @@ const Footer = () => {
             {/* Use flex-row on smaller screens */}
             <Social
               committeeName='Cultural'
-              gmailLink='https://www.linkedin.com/company/literature-committee'
-              instagramLink='https://www.instagram.com/literature_committee/'
+              gmailLink='cultural@diu.iiitvadodara.ac.in'
+              instagramLink='https://www.instagram.com/cultural_iiitvicd/'
               
             />
           </div>
