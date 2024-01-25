@@ -23,14 +23,14 @@ export const ClubDB = [
   },
   {
     "name": "Naveen",
-    "image": "public/img/clubpics/Naveen.png",
+    "image": "img/clubpics/Naveen.png",
     "team" : "Vehemence: Music Club",
     "linkedin": "https://www.linkedin.com",
     "insta": "202211055@iiitvadodara.ac.in"
   },
   {
     "name": "Sumedha Baghmar",
-    "image": "public/img/clubpics/Sumedha.jpg",
+    "image": "img/clubpics/Sumedha.jpg",
     "team" : "Beats: Dance Club",
     "linkedin": "https://www.linkedin.com/in/sumedha-baghmar-b016b6261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "insta": "202211089@iiitvadodara.ac.in"
@@ -44,7 +44,7 @@ export const ClubDB = [
   },
   {
     "name": "Kamal Meena",
-    "image": "public/img/clubpics/Radhe.jpg",
+    "image": "img/clubpics/Radhe.jpg",
     "team" : "Capture: Photography Club",
     "linkedin": "https://www.linkedin.com/in/kamal-meena-787706289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "insta": "202211036@iiitvadodara.ac.in"
