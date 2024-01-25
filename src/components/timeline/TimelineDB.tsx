@@ -24,7 +24,7 @@ export const Day2 = [
         endTime: "12:00 PM",
       },
       {
-        event: "Shaswat Mythology Quiz Round 1",
+        event: "Shashwat Mythology Quiz Round 1",
         startTime: "02:00 PM",
         endTime: "04:00 PM",
       },
@@ -67,8 +67,8 @@ export const Day4 = [
         endTime: "08:00 PM",
       },
       {
-        event: "Shaswat Mythology Quiz Round 2",
-        startTime: "08:00 AM",
+        event: "Shashwat Mythology Quiz Round 2",
+        startTime: "08:00 PM",
         endTime: "11:00 PM",
       },
 
