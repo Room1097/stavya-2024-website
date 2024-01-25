@@ -16,7 +16,7 @@ const Navigation = () => {
                 <Link to='/' className="text-3xl text-white flex justify-center">
                     <img
                         className="lg:h-[8vh] h-[6vh] pl-4 logo"
-                        src="public/img/WEB2.png" alt=""
+                        src="img/WEB2.png" alt=""
                     />
                 </Link>
 
