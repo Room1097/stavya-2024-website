@@ -8,7 +8,7 @@ const Design = () => {
     <div className="w-full flex flex-wrap items-center justify-center p-4">
 
       <div className="flex justify-center items-center flex-col w-full lg:w-[90%]">
-        <h1 className="lg:text-5xl lg:mt-5 lg:mb-10 text-3xl mt-2  font-Casino">Design Team</h1>
+        <h1 className="lg:text-5xl lg:mt-5 lg:mb-10 text-3xl mt-2  font-Casino">Technical Team</h1>
         <Separator className='py-0.5 bg-slate-300 w-full lg:w-[90vw]' />
       </div>
 

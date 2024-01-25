@@ -17,7 +17,7 @@ export const DesignDB = [
     {
       "name": "Harshit Chouhan",
       "image": "img/designpics/Harshit.JPG",
-      "team" : "Merchandise Designer",
+      "team" : "UI/UX Designer",
       "linkedin": "https://www.linkedin.com/in/harshit-chouhan-4290a1205/",
       "insta": "202211066@diu.iiitvadodara.ac.in"
     },
