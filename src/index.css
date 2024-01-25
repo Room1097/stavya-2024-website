@@ -42,7 +42,7 @@ body {
 
 @font-face {
   font-family: "Casino";
-  src: url(assets/fonts/CasinoFlat.ttf);
+  src: url(assets/fonts/CasinoFlat-Regular.ttf);
 }
 
 @layer base {
