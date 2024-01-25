@@ -120,7 +120,7 @@ const Landing: React.FC = () => {
         <div className="flex flex-col lg:gap-[20px] justify-center items-center pt-[6vh]">
           <h1 className="lg:text-3xl uppercase font-bold">about the event</h1>
           <p className="lg:w-[40vw] w-[60vw] text-justify lg:text-center pb-10 lg:pb-2">
-          Stavya, the annual literature and cultural fest at IIITV ICD, encapsulates the dynamic spirit of student creativity. A fusion of artistic expression and intellectual pursuits, the event features diverse cultural performances, engaging literary activities, and captivating art exhibitions. Stavya isn't just a celebration; it's a platform for students to explore their talents through competitions, workshops, and outreach initiatives. From traditional dances to contemporary debates, the fest embraces inclusivity, connecting with the broader community. Stavya not only provides a break from the technical routine but also fosters a sense of community, leaving a lasting impact on the cultural fabric of IIITV ICD.
+          Stavya at IIITV ICD is a vibrant annual fest showcasing student creativity through diverse cultural performances, literary activities, and art exhibitions. It offers a platform for talent exploration with competitions, workshops, and outreach, fostering inclusivity and community spirit, making a lasting cultural impact at the institute.
           </p>
         </div>
       </div>
