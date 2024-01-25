@@ -1,7 +1,7 @@
 
 import PeopleCard from '../people_card/peoplecard';
 import { LitDB } from '@/assets/litdata/LitDB';
-import { Separator } from '../ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 const Lit = () => {
   return (

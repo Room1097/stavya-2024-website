@@ -1,7 +1,7 @@
 import React from 'react';
 import './person.css';
-import { Separator } from '../ui/separator';
-import { Button } from '../ui/button';
+import { Separator } from '@/components/ui/separator';
+import { Button } from '@/components/ui/button';
 import { Mail, LinkedinIcon } from 'lucide-react';
 
 interface PeopleCardProps {

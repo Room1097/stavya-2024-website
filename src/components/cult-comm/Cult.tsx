@@ -1,7 +1,7 @@
 
 import PeopleCard from '../people_card/peoplecard';
 import { CultDB } from '@/assets/culturaldata/CultDB';
-import { Separator } from '../ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 const Cult = () => {
   return (

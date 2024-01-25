@@ -1,7 +1,7 @@
 
 import PeopleCard from '../people_card/peoplecard';
 import { ClubDB } from '@/assets/clubdata/ClubDB';
-import { Separator } from '../ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 const Club = () => {
   return (

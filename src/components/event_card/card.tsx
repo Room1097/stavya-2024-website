@@ -2,12 +2,12 @@ import React from "react";
 import { Separator } from "@/components/ui/separator";
 import "./card.css"; // Import the CSS file for styling
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "../ui/scroll-area";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
-import { Card, CardContent } from "../ui/card";
-import { Avatar, AvatarImage } from "../ui/avatar";
+import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
-import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 interface EventCardProps {
   title: string;

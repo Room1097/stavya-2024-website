@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import EventCard from "../event_card/card";
-import { Separator } from "../ui/separator";
+import { Separator } from "@/components/ui/separator";
 import { EventsDB } from "../../assets/eventdata/EventsDB";
 
 gsap.registerPlugin(ScrollTrigger);

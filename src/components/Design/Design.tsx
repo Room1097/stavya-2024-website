@@ -1,7 +1,7 @@
 
 import PeopleCard from '../people_card/peoplecard';
 import { DesignDB } from '@/assets/designdata/DesignDB';
-import { Separator } from '../ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 const Design = () => {
   return (

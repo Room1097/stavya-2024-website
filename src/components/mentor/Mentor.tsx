@@ -1,7 +1,7 @@
 
 import PeopleCard from '../people_card/peoplecard';
 import { MentorDB } from '@/assets/mentordata/MentorDB';
-import { Separator } from '../ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 const Mentor = () => {
   return (
