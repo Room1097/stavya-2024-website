@@ -60,10 +60,10 @@ export const EventsDB = [
       "Rule 7: In case of any dispute regarding the team and competition's rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Ajay Deep",
-    organizers1Photo : "img/clubpics/Ajay.jpg", 
-    organizers2 : "Suryansh Singh Raghuvansh", 
-    organizers2Photo : "img/cultpics/Suryansh.png" 
+    organizers1: "Ajay Deep",
+    organizers1Photo: "img/clubpics/Ajay.jpg",
+    organizers2: "Suryansh Singh Raghuvansh",
+    organizers2Photo: "img/cultpics/Suryansh.png",
   },
   {
     img: "img/eventpics/Bollywood Quiz (30 x 36 in).png",
@@ -87,28 +87,30 @@ export const EventsDB = [
       "Rule 11: In case of any dispute regarding the team and competition's rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Ajay Deep",
-    organizers1Photo : "img/clubpics/Ajay.jpg", 
-    organizers2 : "Suryansh Singh Raghuvansh", 
-    organizers2Photo : "img/cultpics/Suryansh.png"  
+    organizers1: "Ajay Deep",
+    organizers1Photo: "img/clubpics/Ajay.jpg",
+    organizers2: "Suryansh Singh Raghuvansh",
+    organizers2Photo: "img/cultpics/Suryansh.png",
   },
   {
     img: "img/eventpics/NRITYAKALA (30 x 36 in).png",
-    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLSejGb4G2mGQCemFLsq3Erijy0y-J2uCNHw714OVXn4TRcK-qw/viewform?usp=sf_link",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSejGb4G2mGQCemFLsq3Erijy0y-J2uCNHw714OVXn4TRcK-qw/viewform?usp=sf_link",
     title: "Nrityakala",
     description:
       "Step into the mesmerizing world of Bollywood at our Nrityakala dance event! Experience the allure of vibrant dance performances, immerse yourself in the enchanting choreography, and sway to the rhythm of a night filled with dazzling moves. Join us for an evening of captivating dance, unforgettable moments, and the sheer joy of movement!",
     startDate: "28 Jan",
     rules: [
-      "Rule 1: Each participant or group is allotted a maximum performance time of 3 minutes.",
+      "Rule 1: Each participant or group is allotted a minimum performance time of 3 minutes.",
       "Rule 2: The event will take place on a well-equipped stage with high-quality audio equipment.",
       "Rule 3: Participants are encouraged to bring their unique artistic interpretations to the freestyle theme.",
+      "Rule 4: Group should be maximum of five and minimum of three.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Sumedha Baghmar",
-    organizers1Photo : "img/clubpics/Sumedha.jpg", 
-    organizers2 : "Diya Bhati", 
-    organizers2Photo : "img/cultpics/Diya.jpg" 
+    organizers1: "Sumedha Baghmar",
+    organizers1Photo: "img/clubpics/Sumedha.jpg",
+    organizers2: "Diya Bhati",
+    organizers2Photo: "img/cultpics/Diya.jpg",
   },
   {
     img: "img/eventpics/Photography Workshop (30 x 36 in).png",
@@ -139,10 +141,10 @@ export const EventsDB = [
       "Rule 18: In case of any dispute with regards to the team and competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Kamal Meena",
-    organizers1Photo : "img/clubpics/Radhe.jpg", 
-    organizers2 : "Kumar Shantanu", 
-    organizers2Photo : "img/cultpics/Shantanu.jpg" 
+    organizers1: "Kamal Meena",
+    organizers1Photo: "img/clubpics/Radhe.jpg",
+    organizers2: "Kumar Shantanu",
+    organizers2Photo: "img/cultpics/Shantanu.jpg",
   },
   {
     img: "img/eventpics/Copy of ANTAKSHARI (30 x 36 in).png",
@@ -165,15 +167,15 @@ export const EventsDB = [
       "Rule 10: In case of any dispute regarding the team and the battle's rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Naveen",
-    organizers1Photo : "img/clubpics/Naveen.png", 
-    organizers2 : "Omni Manvani", 
-    organizers2Photo : "img/cultpics/Omni.jpg" 
+    organizers1: "Naveen",
+    organizers1Photo: "img/clubpics/Naveen.png",
+    organizers2: "Omni Manvani",
+    organizers2Photo: "img/cultpics/Omni.jpg",
   },
   {
     img: "img/eventpics/Manch Mantra (30 x 36 in).png",
     registerUrl: "https://forms.gle/CgGaWP9d7r6o349UA",
-    title: "Munch mantra",
+    title: "Manch mantra",
     description:
       "Dive into the cinematic enchantment at the Manch Mantra event in Stavya! Each team embarks on a thrilling journey as they receive a movie to revolutionize—transforming its script and have to act upon. Unleash your creativity, rewrite the script, and take center stage to perform the ultimate, personalized movie magic! ",
     startDate: "27 Jan",
@@ -181,24 +183,24 @@ export const EventsDB = [
     rules: [
       "Rule 1: Each team will receive a pre-selected movie name. Teams will have a time limit to recreate a scene or storyline from the movie through a live performance.",
 
-"Rule 2: Ensure the script and drama should not disrespect any culture/identity.",
+      "Rule 2: Ensure the script and drama should not disrespect any culture/identity.",
 
-"Rule 3: By participating, the participant agrees that his/her work can be posted on Essence Club's & Eloquence Drama Club's Instagram handle.",
+      "Rule 3: By participating, the participant agrees that his/her work can be posted on Essence Club's & Eloquence Drama Club's Instagram handle.",
 
-"Rule 4: In case of any dispute concerning the team and the competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
+      "Rule 4: In case of any dispute concerning the team and the competition’s rules and regulations, the decision taken by the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Kumar Shantanu",
-    organizers1Photo : "img/cultpics/Shantanu.jpg", 
-    organizers2 : "Suryansh Singh Raghuvansh", 
-    organizers2Photo : "img/cultpics/Suryansh.png" 
+    organizers1: "Kumar Shantanu",
+    organizers1Photo: "img/cultpics/Shantanu.jpg",
+    organizers2: "Suryansh Singh Raghuvansh",
+    organizers2Photo: "img/cultpics/Suryansh.png",
   },
   {
     img: "img/eventpics/Copy of SHASHWAT (30 x 36 in).png",
     registerUrl: "https://forms.gle/CgGaWP9d7r6o349UA",
     title: "Shashwat Mythology Quiz",
     description:
-      "Shashwat delivered an engaging experience, challenging participants with mythology-based questions. The clear marking scheme and team-based format added structure, while the pen-and-paper Round 1 allowed for thoughtful responses. Round 2's diverse segments intensified the competition, ultimately crowning the team with the highest points as the deserving winner.",
+    "Immerse yourself in the fascinating world of mythology with the Shashwat quiz event! Unleash your knowledge of ancient tales, gods, and legendary creatures. Engage in a thrilling competition that explores the rich tapestry of myths from diverse cultures. Join us for an epic journey into the realms of lore and legends at Shashwat's Mythology Quiz!",
     startDate: "27 Jan",
     endDate: "29 Jan",
     rules: [
@@ -209,11 +211,10 @@ export const EventsDB = [
       "Rule 5: If a participant’s action raises suspicion for the organizers, their candidature can be questioned. The organizers can take such decisions to ensure a fair competition.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Harshit Soni",
-    organizers1Photo : "img/clubpics/HarshitSoni.jpg", 
-    organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
-  
+    organizers1: "Harshit Soni",
+    organizers1Photo: "img/clubpics/HarshitSoni.jpg",
+    organizers2: "Devrikh Jatav",
+    organizers2Photo: "img/litpics/DevrikhJatav.jpg",
   },
   {
     img: "img/eventpics/confero (30 x 36 in).png",
@@ -221,7 +222,7 @@ export const EventsDB = [
     title: "Confero : Debate Competition",
     description:
       "This event is structured to be held in 2 rounds, in each round every team will be assigned topic(s) and motions to debate on. In 1st round each team will be given only one motion, either for or against but in round 2 each team will be given both motions one by one on different topics .There will be predefined judging criteria on the basis of which final winnerswill be chosen.",
-    startDate: "26 Jan", 
+    startDate: "26 Jan",
     endDate: "27 Jan",
     rules: [
       "Rule 1: It will be a two-round debate competition.",
@@ -230,10 +231,10 @@ export const EventsDB = [
       "Rule 4: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Rituraj Kumar",
-    organizers1Photo : "img/clubpics/Rituraj.jpg", 
-    organizers2 : "Anay Kumar Pandey", 
-    organizers2Photo : "img/litpics/AnayKumarPandey.png" 
+    organizers1: "Rituraj Kumar",
+    organizers1Photo: "img/clubpics/Rituraj.jpg",
+    organizers2: "Anay Kumar Pandey",
+    organizers2Photo: "img/litpics/AnayKumarPandey.png",
   },
   {
     img: "img/eventpics/avlekha.png",
@@ -252,10 +253,10 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Srijan sharma",
-    organizers1Photo : "img/litpics/Srijan.jpg", 
-    organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
+    organizers1: "Srijan sharma",
+    organizers1Photo: "img/litpics/Srijan.jpg",
+    organizers2: "Devrikh Jatav",
+    organizers2Photo: "img/litpics/DevrikhJatav.jpg",
   },
   {
     img: "img/eventpics/inkint.png",
@@ -274,11 +275,10 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Srijan sharma",
-    organizers1Photo : "img/litpics/Srijan.jpg", 
-    organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
-  
+    organizers1: "Srijan sharma",
+    organizers1Photo: "img/litpics/Srijan.jpg",
+    organizers2: "Devrikh Jatav",
+    organizers2Photo: "img/litpics/DevrikhJatav.jpg",
   },
   {
     img: "img/eventpics/OPEN MIC (30 x 36 in).png",
@@ -296,7 +296,6 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-   
   },
   {
     img: "img/eventpics/ALTER EGO (30 x 36 in).png",
@@ -313,7 +312,6 @@ export const EventsDB = [
       "Rule 5: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    
   },
   {
     img: "img/eventpics/Copy of Bollywood Quiz (30 x 36 in).png",
@@ -331,11 +329,10 @@ export const EventsDB = [
       "Rule 6: In case of any discrepancy, the decision of the organizers will be final and binding.",
     ],
     regdate: "26 Jan",
-    organizers1 : "Srijan sharma",
-    organizers1Photo : "img/litpics/Srijan.jpg", 
-    organizers2 : "Devrikh Jatav", 
-    organizers2Photo : "img/litpics/DevrikhJatav.jpg" 
-  
+    organizers1: "Srijan sharma",
+    organizers1Photo: "img/litpics/Srijan.jpg",
+    organizers2: "Devrikh Jatav",
+    organizers2Photo: "img/litpics/DevrikhJatav.jpg",
   },
   {
     img: "img/eventpics/disco night (30 x 36 in) (1).png",
@@ -346,5 +343,5 @@ export const EventsDB = [
     startDate: "2 Feb",
     rules: [],
     regdate: "26 Jan",
-  }
+  },
 ];

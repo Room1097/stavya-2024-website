@@ -94,7 +94,7 @@ export const Day6 = [
         endTime: "08:00 PM",
       },
       {
-        event: "Munchmantra",
+        event: "Manchmantra",
         startTime: "08:00 PM",
         endTime: "11:00 PM",
       },
